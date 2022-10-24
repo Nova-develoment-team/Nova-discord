@@ -1,0 +1,1224 @@
+ 
+2022-09-25 06:26:38 || TypeError: client.send is not a function [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || TypeError: client.send is not a function [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || TypeError: client.send is not a function [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || TypeError: client.send is not a function [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || TypeError: client.send is not a function [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || TypeError: client.send is not a function [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || TypeError: client.send is not a function [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || TypeError: client.send is not a function [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || TypeError: client.send is not a function [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || TypeError: client.send is not a function [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || TypeError: client.send is not a function [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || TypeError: client.send is not a function [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 06:26:38 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch (MONITOR) 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch (MONITOR) 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 06:26:38 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-09-25 08:11:22 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Invalid Form Body
+data.embeds[0].image.url: Scheme "$avatar[andrius2" is not supported. Scheme must be one of ('http', 'https'). [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Invalid Form Body
+data.embeds[0].image.url: Scheme "$avatar[nexus" is not supported. Scheme must be one of ('http', 'https'). [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Invalid Form Body
+data.embeds[0].image.url: Scheme "$avatar[nova." is not supported. Scheme must be one of ('http', 'https'). [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Interaction has already been acknowledged. [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Interaction has already been acknowledged. [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Interaction has already been acknowledged. [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Interaction has already been acknowledged. [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-25 15:21:35 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-28 15:59:05 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-28 15:59:05 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-28 16:06:55 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-28 16:12:24 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-28 16:17:15 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-28 16:17:15 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-28 16:17:15 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-28 16:17:15 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-28 16:17:15 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-28 16:17:15 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-28 16:17:15 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-28 16:17:15 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-28 16:17:15 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-09-28 16:17:15 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-02 12:00:29 || TypeError: Path is not a valid directory [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-02 12:00:29 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-02 16:01:54 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-02 16:01:54 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-02 16:01:54 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-02 16:01:54 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-02 16:01:54 || TypeError: Cannot read properties of undefined (reading 'value') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-02 16:01:54 || TypeError: Cannot read properties of undefined (reading 'value') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-02 16:01:54 || DiscordHTTPError: DiscordHTTPError: 400 Bad Request on POST /api/v9/oauth2/token [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-02 16:01:54 || TypeError: Cannot read properties of undefined (reading 'value') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-02 16:01:54 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-02 16:01:54 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-02 16:01:54 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-02 16:01:54 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 11:08:06 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 11:11:16 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 11:12:27 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 11:14:46 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 11:17:31 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 11:18:17 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 11:53:10 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 12:04:22 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 12:04:22 || ReferenceError: document is not defined [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 12:04:22 || ReferenceError: document is not defined [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 12:04:22 || ReferenceError: document is not defined [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 12:08:20 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 12:08:20 || ReferenceError: document is not defined [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 12:08:20 || ReferenceError: document is not defined [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 12:08:20 || ReferenceError: document is not defined [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 12:14:13 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 12:16:17 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 12:19:18 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 12:29:09 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 12:32:44 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 12:37:56 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 12:38:50 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-05 12:38:50 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-06 15:10:59 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-06 15:15:30 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-06 15:16:13 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-06 15:16:13 || TypeError: Cannot read properties of undefined (reading 'username') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-06 15:16:13 || TypeError: Cannot read properties of undefined (reading 'username') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-06 15:19:07 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-06 15:21:53 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-06 15:24:36 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-06 15:39:41 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-10-06 15:39:43 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-10-06 15:39:43 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-06 15:42:35 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-06 15:46:29 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-06 15:52:21 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-06 15:54:11 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-06 15:57:01 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-06 15:58:19 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-06 16:00:32 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-06 16:21:01 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-06 16:23:20 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 08:12:46 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 08:14:41 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 08:16:00 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 08:17:26 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 08:27:30 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 08:30:44 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 08:37:57 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 09:01:19 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 09:05:39 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 09:14:55 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 09:16:31 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 09:17:26 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 09:21:48 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 09:21:48 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 09:21:48 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 10:22:16 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 10:27:07 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 10:28:08 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 10:28:08 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 10:28:08 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 10:28:08 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 11:41:54 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 11:41:54 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 11:45:58 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 11:45:58 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 11:50:34 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 11:50:34 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 11:50:34 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 12:41:41 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 12:41:47 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 12:41:47 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 12:41:47 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 13:24:15 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 13:24:15 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 13:24:15 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 13:24:15 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 13:38:24 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 13:38:24 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 13:38:24 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 13:38:24 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 13:38:24 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 13:38:24 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 13:38:24 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 13:38:24 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 13:38:24 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 14:15:09 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 14:15:09 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 14:15:09 || TypeError: Cannot read properties of undefined (reading 'replace') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 14:15:09 || TypeError: Cannot read properties of undefined (reading 'replace') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 14:15:09 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 15:50:23 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 15:52:00 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 15:53:46 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 16:04:07 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 16:05:29 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 16:08:06 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 16:08:06 || TypeError: Cannot read properties of undefined (reading 'replace') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-07 16:08:06 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 04:10:20 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 04:11:38 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 04:27:58 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 04:27:58 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 04:27:58 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 04:27:58 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 04:27:58 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 04:27:58 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 04:27:58 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 04:27:58 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 04:27:58 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 04:27:58 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 04:27:58 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 04:27:58 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 04:27:58 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 04:27:58 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 04:27:58 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 04:27:58 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 12:11:41 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 12:11:41 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 12:13:16 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 12:13:16 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 12:13:16 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 12:13:16 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 12:13:16 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 12:13:16 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 12:13:16 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 12:13:16 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 12:13:16 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-08 13:11:48 || Type: Multiple Resolve 
+2022-10-15 16:37:29 || TypeError: Cannot read properties of undefined (reading 'id') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:37:29 || TypeError: Cannot read properties of undefined (reading 'id') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:37:29 || TypeError: Cannot read properties of undefined (reading 'id') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:37:29 || TypeError: Cannot read properties of undefined (reading 'id') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:38:40 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:38:40 || TypeError: Cannot read properties of undefined (reading 'id') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:38:40 || TypeError: Cannot read properties of undefined (reading 'id') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:39:27 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:39:27 || TypeError: Cannot read properties of undefined (reading 'id') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:39:27 || TypeError: Cannot read properties of undefined (reading 'id') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:39:27 || TypeError: Cannot read properties of undefined (reading 'id') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:39:27 || TypeError: Cannot read properties of undefined (reading 'id') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:39:27 || TypeError: Cannot read properties of undefined (reading 'id') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:39:27 || TypeError: Cannot read properties of undefined (reading 'id') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:39:27 || TypeError: Cannot read properties of undefined (reading 'id') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:41:51 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:45:09 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:47:56 || TypeError: Cannot read properties of undefined (reading 'id') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:47:56 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:47:56 || TypeError: Cannot read properties of undefined (reading 'id') [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:48:25 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:49:50 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:52:28 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:53:58 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:53:58 || TypeError: dash.getUser(...).username is not a function [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:53:58 || DiscordHTTPError: DiscordHTTPError: 400 Bad Request on POST /api/v7/oauth2/token [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:53:58 || DiscordHTTPError: DiscordHTTPError: 400 Bad Request on POST /api/v7/oauth2/token [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:53:58 || TypeError: dash.getUser(...).username is not a function [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:53:58 || TypeError: dash.getUser(...).username is not a function [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:53:58 || DiscordHTTPError: DiscordHTTPError: 400 Bad Request on POST /api/v7/oauth2/token [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:53:58 || TypeError: dash.getUser(...).username is not a function [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 16:53:58 || TypeError: dash.getUser(...).username is not a function [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-15 18:09:54 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-16 09:00:10 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-16 09:09:00 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-16 09:09:00 || TypeError: dash.getUser(...) is not a function [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-16 09:09:34 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-16 09:09:34 || DiscordHTTPError: DiscordHTTPError: 400 Bad Request on POST /api/v7/oauth2/token [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-16 09:11:10 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-16 09:12:02 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-16 09:13:29 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-17 14:52:02 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-17 16:49:21 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-19 13:20:21 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-19 14:13:25 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-19 16:05:38 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-19 16:07:04 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-19 16:07:04 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-19 16:07:04 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-19 16:07:04 || ReferenceError: guser is not defined [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-19 16:07:04 || ReferenceError: guser is not defined [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-19 16:07:04 || ReferenceError: guser is not defined [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-19 16:07:04 || ReferenceError: guser is not defined [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-19 16:07:04 || ReferenceError: guser is not defined [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-19 16:07:04 || ReferenceError: guser is not defined [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-19 16:07:04 || ReferenceError: guser is not defined [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-19 16:07:04 || ReferenceError: guser is not defined [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-21 14:49:05 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-21 14:49:05 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-21 14:50:44 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-21 14:50:47 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-21 14:50:47 || TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-22 08:56:53 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-10-22 15:35:28 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
