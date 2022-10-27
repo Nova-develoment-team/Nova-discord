@@ -15,6 +15,8 @@ go to ./handler/botconfigs/config.js
 change to token to your token [Developer portal](https://discord.com/developers/applications)
 make a new application
 ![example](https://cdn.nova-bot.tk/chrome_o6R5KsOUJK.png/direct)
+
+
 ![example](https://cdn.nova-bot.tk/chrome_u7hUBxQsFx.png/direct)
 click make a bot
 you will see this screen
