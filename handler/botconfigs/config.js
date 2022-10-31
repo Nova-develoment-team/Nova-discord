@@ -1,14 +1,18 @@
+require("dotenv").config();
 
 module.exports = {
   Bot: {
     token:
-      "ODk2MzAzOTQ3MzExMTA0MDQx.GUSmki.OF6p6zYwAOvfBRRgI36Xk9WG3NmF6nDur_qE90",
+      process.env.token,
     prefix: ["$GetServerVar[prefix]", "<@$clientID>"],
       intents: "all",
     sharding: true,
   },
 
-  events: {
+  bot_settings: {
+  ownerid: ""
+  },
+    events: {
     antiCrash: true,
     autoUpdate: false,
   },
@@ -29,30 +33,30 @@ module.exports = {
   },
 
   lava_settings: {
-    node_1:
-      "lavalink-node-2-5.nova-team.repl.co" /*The lavalink host, Should not add https:// or http:// /*/,
-    Host_password: "NovaLavalink" /* The lavalinkd host password */
+    node_1: process.env.lavalink_node_1 /*The lavalink host, Should not add https:// or http:// */,
+    Host_password: process.env.lavalink_password /* The lavalinkd host password */,
   },
 
   website_settings: {
-    tab_title: "Nova bot",
-    embed_description: "Nova the best discord bot",
-    domain: "https://dashboard.nova-bot.tk",
-    Status_page: "https://status.nova-bot.tk",
-    Bot_name: "Nova",
+    title: process.env.title,
+    domain: process.env.website_domain,
     Maintnance: false,
-        title: "Nova",
     bg: "https://cdn.nova-bot.tk/chrome_s9GZjpKOvb.png/direct",
   },
 
   dash_settings: {
-    id: "",
-    secret: "",
-    redirect: "https://dashboard.nova-bot.tk/auth/callback",
+    id: 896303947311104041,
+    secret: process.env.bot_secret,
+    redirect: process.env.website_redirect,
   },
 
+admin_panel_settings: {
+  username: process.env.admin_panel_username,
+  password: process.env.admin_panel_password
+},
+
   db_settings: {
-    uri: "" /* MongoDB atlast uri */,
+    uri: "mongodb://admin:WB0mAPwohq@n2.luxxy.host:1802?authSource=admin" /* MongoDB atlast uri */,
   },
 };
 

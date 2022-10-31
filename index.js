@@ -87,7 +87,7 @@ console.log("Dream a bot");
 
 const bot = new Nova.Bot(config.Bot);
 
-/* [ Nova admin panel ] */
+/* [ Nova web panel ] */
 require("./website/dashboard/index.js")(
   bot,
   1488,

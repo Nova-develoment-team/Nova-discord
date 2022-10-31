@@ -1,3 +1,12 @@
+/* The api of Nova bot. 
+Don't edit this, this is used for direct called from off server websites
+example: "https://api.nova-bot.tk"
+before editing contect ducky
+*/
+
+
+
+
 module.exports = function (bot, port) {
   bot = bot.client;
   const path = require("path");
@@ -5,7 +14,6 @@ module.exports = function (bot, port) {
   const config = require(`../../handler/botconfigs/config.js`);
 
   const chalk = require("chalk");
-  var session = require("express-session");
   //const config = require(`/home/runner/Nova-tests/handler/botconfigs/config.js`)
   const express = require("express");
   const app = new express();
@@ -17,22 +25,14 @@ module.exports = function (bot, port) {
   const bodyParser = require("body-parser");
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use(bodyParser.json());
-  const sessions = require("express-session");
   const oneDay = 1000 * 60 * 60 * 24;
-  app.use(
-    sessions({
-      secret: "ioyre89irhf893y48yfhwiehk94wyrh3qeda78tg3",
-      saveUninitialized: true,
-      cookie: { maxAge: oneDay },
-      resave: false,
-    })
-  );
   const {
     debug,
     warn,
     error,
   } = require("/root/home/Nova/handler/events/Logger.js");
-
+const user = 'duckey'
+const pass = 'NovaDev'
 
   /*   const cluster = require('cluster')
 const { cpus } = require('os')
@@ -62,7 +62,18 @@ const numCPUs = cpus().length;
   });
 } else {*/
 
-  const plugins = require("aoi.js-plugins");
+const sessions = require("express-session");
+  app.use(
+    sessions({
+      secret: "ioyre89irhf893y48yfhwiehk94wyrh3qeda78tg3",
+      saveUninitialized: true,
+      cookie: { maxAge: oneDay },
+      resave: false,
+    })
+  );
+
+
+  const plugins = require("nova.js-plugins");
   const dash = new plugins.Dash({
     clientID: "896303947311104041",
     clientSecret: config.dash_settings.secret,
@@ -135,16 +146,21 @@ const numCPUs = cpus().length;
     }
   });
 
+  app.get('/api/botVersionCheck', (req, res) => {
+    if(req.query.key != "nIECQuUOu1"){
+      res.send('oof')
+    }
+    res.send('6.1.0')
+  })
+  
   app.get("/404", (req, res) => {
 res.status(404).sendFile(__dirname+"/oof.html")
   })
 
-  app.use(function(req, res) {
-    res.redirect("/404")
-  })
+app.get('/*', (req, res) => {
+  res.redirect('/404')
+})
 
-
-  
 
   const keysList = require("./assets/keys.js").keys;
 

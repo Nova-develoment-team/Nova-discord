@@ -4,10 +4,10 @@ module.exports = {
     $if[$message[1]==] 
     $title[$randomtext[Join the support server!;Add me!]]
     $description[
-    $addfield[<a:NewMail:916990093049360394> ModMail [$getServerVar[prefix]help modmail];
+    $addfield[<:modmail:1033418041855332392> ModMail [$getServerVar[prefix]help modmail];
     <:reply:980147502529523752> Search for modmail commands;yes]
 
-    $addfield[📈 Leveling [$getServerVar[prefix]help leveling];
+    $addfield[<:levelup:1033418036956385410> Leveling [$getServerVar[prefix]help leveling];
     <:reply:980147502529523752> Search for leveling commands;yes]
 
     $addfield[<a:tadablue:904718144663322669> Giveaway [$getServerVar[prefix]help giveaway];
@@ -16,19 +16,19 @@ module.exports = {
     $addfield[🎵 Music [$getServerVar[prefix]help music];
     <:reply:980147502529523752> Search for music commands;yes]
 
-    $addfield[💰 Economy [$getServerVar[prefix]help economy];
+    $addfield[<:economy:1033418046087368704> Economy [$getServerVar[prefix]help economy];
     <:reply:980147502529523752> Search for economy commands;yes]
 
-    $addfield[⚙️ Utility [$getServerVar[prefix]help utility];
+    $addfield[<:utility:1033418027531780216> Utility [$getServerVar[prefix]help utility];
     <:reply:980147502529523752> Search for utility commands;yes]
 
     $addfield[:flushed: [$getServerVar[prefix]help nsfw];
     <:reply:980147502529523752> Search for nsfw commands;yes]
 
-    $addfield[<a:fun:910546867962642463> Fun [$getServerVar[prefix]help fun];
+    $addfield[<a:fun:1033418020204326913> Fun [$getServerVar[prefix]help fun];
     <:reply:980147502529523752> Search for fun commands;yes]
 
-    $addfield[<:s_invite:960755956449415168> Invite [$getServerVar[prefix]help invite];
+    $addfield[<:invite:1033418033726767226> Invite [$getServerVar[prefix]help invite];
     <:reply:980147502529523752> Search for invite commands;yes]
 
     $addfield[😁 Reaction roles [$getServerVar[prefix]help reaction];
@@ -45,7 +45,7 @@ $log[[DEBUG] :: $username, used the help command]
 
 
 $elseIf[$message[1]==fun]
-$title[<a:fun:910546867962642463> Nova fun]
+$title[<a:fun:1033418020204326913> Nova fun]
 $description[guess ¦ Play guess the number
 hack ¦ Hack a user
 jumbo ¦ Enlarge an emote
@@ -56,7 +56,7 @@ $log[[DEBUG] :: $username, used the fun help category command]
 $endelseIf
 
 $elseIf[$message[1]==economy]
-$title[💰 Nova economy]
+$title[<:economy:1033418046087368704> Nova economy]
 $description[work ¦ for money 
     beg ¦ beg for money
     bal ¦ ballance
@@ -84,7 +84,7 @@ $description[work ¦ for money
     $log[[DEBUG] :: $username, used the economy help category command]
 $endelseIf
 $elseIf[$message[1]==utility]
-$title[⚙️ Nova utilitys]
+$title[<:utility:1033418027531780216> Nova utilitys]
 $description[
 avatar ¦ shows a users avatar
 commandlist ¦ aoi.js functions
@@ -168,7 +168,7 @@ $color[$getServerVar[color]]
 $log[[DEBUG] :: $username, used the music help category command]
 $endelseIf
 $elseIf[$message[1]==modmail]
-$title[<a:NewMail:916990093049360394> Nova mail!]
+$title[<:modmail:1033418041855332392> Nova mail!]
 $description[modMailClose ¦ close the modMail
     modmail ¦ Creat a new mod mail instance
     setupModmail ¦ Setup the mod mail
@@ -204,7 +204,7 @@ $log[[DEBUG] :: $username, used the mod help category command]
 $endelseIf
 
 $elseIf[$message[1]==levelling]
-$title[📈 Nova levels]
+$title[<:levelup:1033418036956385410> Nova levels]
 $description[set-level-channel ¦ set a level channel.
 level-message ¦ make a level up message!
 level-role ¦ set a level role.
@@ -216,7 +216,7 @@ $color[$getServerVar[color]]
 $log[[DEBUG] :: $username, used the levelling help category command]
 $endelseIf
 $elseIf[$message[1]==invite]
-$title[<:s_invite:960755956449415168> Nova invite]
+$title[<:invite:1033418033726767226> Nova invite]
 $description[user-invites ¦ See user invites
 reset-invites ¦ Reset a users invites]
 $color[$getServerVar[color]]

@@ -1,14 +1,13 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Nova bot</title>
+    <title><%=config.website_settings.title%></title>
+
     <meta content="Nova bot" property="og:title" />
     <meta content="A 200 command multi use discord bot" property="og:description" />
     <meta content="https://dashboard.nova-bot.tk" property="og:url" />
     <meta content="https://dashboard.nova-bot.tk/cdn/images/Nova.png" property="og:image" />
-    <meta http-equiv="refresh" content="10s"; URL=""/>
     <meta content="#2f3136" data-react-helmet="true" name="theme-color" />
     <link rel="stylesheet" href="https://assets.nova-bot.tk/assets/css/bulma.min.css" />
     <link rel="stylesheet" href="https://assets.nova-bot.tk/assets/css/style.css" />
@@ -60,6 +59,15 @@
           <a href="/" class="navbar-item is-tab">
             Home
           </a>
+
+          <a href="/console" class="navbar-item is-tab">
+            Console
+          </a>
+
+          <a href="/console/select" class="navbar-item is-tab">
+            Selection
+          </a>
+       
           
         </div>
 
@@ -72,17 +80,65 @@
             <i class="fa-brands fa-github"></i>
           </a>
 
-
+          <div class="navbar-item">
+              <li class="nav-item dropdown">
+              <a class="nav-link btn btn-discord dropdown-toggle has-text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="https://cdn.discordapp.com/avatars/<%=user.id%>/<%=user.avatar%>" class="nav-userProfile-image"/><b><%=user.username%></b><small>#<%=user.discriminator%></small> 
+              </a>
+            <div class="dropdown-menu dropdown-menu-right animate slideIn" style="max-width:220px!important;">
+                <a class="dropdown-item" href="/console"><i class="fa fa-id-card mr-2"></i> Console</a>
+                <a class="dropdown-item" href="/console/select"><i class="fa-solid fa-list-radio"></i> Selector</a>
+                <% if (user.id=="845312519001342052"){ %>
+                <a class="dropdown-item" href="/console/admin/dashboard"><i class="fa-solid fa-screwdriver-wrench"></i> Admin</a>
+<% } %>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item dropdown-danger" href="/logout"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+            </div>
+          </li>
+          </div>
         </div>
       </div>
     </nav>
+
+    <style>
+      .grid {
+        display: grid;
+        gap: 1px;
+        grid-template-columns: repeat(3, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      </style>
+      <section class="hero bg-base is-fullheight">
+            <div class="grid">
+              
+                  <div class="column mr-6 mt-12" data-aos="fade-up">
+      
+                    <p class=""
+                    </p>
+                    <div>
+                    <b><p style="color:white;text-align: center;font-size:5vw">Select A Server:</p></b>
+                   <div>
+                    <ul>
+                    <div style="text-align: center;" class="grid">
+                      <%-manage%>
+                    </div>
+                  </ul>
+                    </div>
+                    <br>
+                    <br>
+                    <b><p style="color:white;text-align: center;font-size:5vw">Add To Server:</p></b>
+                    <div style="text-align: center;" class="grid">
+<%-ats%>
+                   </div>
+                    </div>
+                    </div>
+                  </div>
+      
+                </section> 
     
 
-    <section class="hero bg-base is-fullheight">
-      <div class="hero-body">
-               <h2 style="color:white;text-align: center;font-size:5vw">404 NOTFOUND</h2>
-               </div>
-</section>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path
         fill="#1a2634"
@@ -113,6 +169,7 @@
           Reserved.
         </p>
 
+      
       </div>
     </footer>  
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -120,4 +177,5 @@
     <script src="https://unpkg.com/tippy.js@6"></script>
     <script src="https://assets.nova-bot.tk/assets/js/script.js"></script>
   </body>
-</html>
+
+  

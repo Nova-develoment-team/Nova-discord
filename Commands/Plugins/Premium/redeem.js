@@ -1,9 +1,9 @@
 module.exports = {
   name: "redeempremium",
   code: `
-    $setTimeout[30d;serverid:$guildid]
-    $setTimeout[30d;userid:$authorid]
-    $setTimeout[30d;servername:$servername]
+    $setTimeout[1s;serverid:$guildid]
+    $setTimeout[1s;userid:$authorid]
+    $setTimeout[1s;servername:$servername]
     
 $channelSendmessage[1005105722180255856;$get[embed]]
 

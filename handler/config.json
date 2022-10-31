@@ -1,0 +1,19 @@
+{
+  "bots_settings": {
+    "token": "ODk2MzAzOTQ3MzExMTA0MDQx.GylmtX.JiTYbUT7s46oQWMcunhyvISK95J6jjiq_3hXQ4",
+    "topgg": ""
+  },
+
+  "dash_settings": {
+    "id": 896303947311104041,
+    "secret": "D2OC6PaQc08g6aX00yFC6BBk3CiLjyGG",
+    "redirect": "https://dashboard.nova-bot.tk/callback"
+  },
+
+  "webite_settings": {
+    "title": "Nova",
+    "url": "https://dashboard.nova-bot.tk",
+    "status-page": "https://status.nova-bot.tk",
+    "embed-description": "the best bot"
+  }
+}
