@@ -5,6 +5,7 @@
 * dont run on glitch
 * you can run on heroku
 * provide your own emojis
+* can run on pterodactyl
 
 **the server**
 * linux mechine running 20.04
