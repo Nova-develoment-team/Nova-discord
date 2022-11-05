@@ -1,0 +1,57 @@
+undefined 
+2022-11-04 16:11:08 || DiscordAPIError: Missing Permissions [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 02:26:08 || Error: ENOENT: no such file or directory, open '/home/runner/Nova-discord/website/dashboard/index.ejs' [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 02:26:08 || Error: ENOENT: no such file or directory, open '/home/runner/Nova-discord/website/dashboard/index.ejs' [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 02:26:08 || Error: ENOENT: no such file or directory, open '/home/runner/Nova-discord/website/dashboard/index.ejs' [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 02:26:08 || Error: ENOENT: no such file or directory, open '/home/runner/Nova-discord/website/dashboard/index.ejs' [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 02:26:08 || Error: ENOENT: no such file or directory, open '/home/runner/Nova-discord/website/dashboard/index.ejs' [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:18:44 || Error: ENOENT: no such file or directory, open '/home/runner/Nova-discord/website/dashboard/pages/dash.ejs' [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:18:44 || Error: ENOENT: no such file or directory, open '/home/runner/Nova-discord/website/dashboard/pages/dash.ejs' [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:18:44 || Error: ENOENT: no such file or directory, open '/home/runner/Nova-discord/website/dashboard/pages/dash.ejs' [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:31:10 || DiscordHTTPError: DiscordHTTPError: 401 Unauthorized on GET /api/v6/users/@me [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:31:10 || DiscordHTTPError: DiscordHTTPError: 401 Unauthorized on GET /api/v6/users/@me [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:31:10 || SyntaxError: Unexpected end of JSON input [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:57:45 || Error: ENOENT: no such file or directory, open '/home/runner/Nova-discord/CommandsPlugins/Utility/Afk.js' [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 04:23:05 || ReferenceError: _dirname is not defined [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 04:27:51 || DiscordHTTPError: DiscordHTTPError: 401 Unauthorized on GET /api/v6/users/@me [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 07:09:16 || ReferenceError: guild is not defined [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 07:09:16 || ReferenceError: guild is not defined [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 07:31:48 || DiscordHTTPError: DiscordHTTPError: 401 Unauthorized on GET /api/v6/users/@me [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 09:30:38 || DiscordHTTPError: DiscordHTTPError: 400 Bad Request on POST /api/v6/oauth2/token [object Promise] || Type: Unhandled Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 

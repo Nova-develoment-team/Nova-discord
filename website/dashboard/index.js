@@ -30,7 +30,7 @@ module.exports = function (bot, port) {
     debug,
     warn,
     error,
-  } = require("/root/home/Nova/handler/events/Logger.js");
+  } = require("../../handler/events/Logger.js");
 const user = 'duckey'
 const pass = 'NovaDev'
 
@@ -77,7 +77,7 @@ const sessions = require("express-session");
   const dash = new plugins.Dash({
     clientID: "896303947311104041",
     clientSecret: config.dash_settings.secret,
-    redirectURI: "https://dashboard.nova-bot.tk/auth/callback",
+    redirectURI: config.website_settings.domain+"auth/callback",
     bot: bot,
   });
 
@@ -113,7 +113,7 @@ const sessions = require("express-session");
           "Someone tried to access the api without having the right key"
         )}`
       );
-      res.status('401').sendFile(__dirname+"/401forbidden.html")
+      res.status('401').sendFile(__dirname+"/pages/forbidden.ejs")
     }
 
     res.send(

@@ -33,7 +33,7 @@ module.exports = {
   },
 
   lava_settings: {
-    node_1: process.env.lavalink_node_1 /*The lavalink host, Should not add https:// or http:// */,
+    node_1: process.env.lavalink_host /*The lavalink host, Should not add https:// or http:// */,
     Host_password: process.env.lavalink_password /* The lavalinkd host password */,
   },
 
@@ -46,8 +46,7 @@ module.exports = {
 
   dash_settings: {
     id: 896303947311104041,
-    secret: process.env.bot_secret,
-    redirect: process.env.website_redirect,
+    secret: process.env.bot_secret
   },
 
 admin_panel_settings: {

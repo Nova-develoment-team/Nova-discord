@@ -1517,3 +1517,365 @@ data.embeds[0].image.url: Scheme "$avatar[nova." is not supported. Scheme must b
  
 2022-10-31 09:33:41 || DiscordHTTPError: DiscordHTTPError: 401 Unauthorized on GET /api/v6/users/@me [object Promise] || Type: Unhandled Rejection/Catch 
  < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-01 11:13:22 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-01 11:13:22 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-01 11:14:17 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-01 11:14:17 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-01 13:03:40 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-01 13:03:40 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-04 13:05:59 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-04 13:05:59 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-04 13:07:21 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-04 13:07:21 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-04 14:07:40 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-04 14:07:40 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-04 15:10:51 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-04 15:10:51 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-04 16:11:08 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-04 16:11:08 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-04 17:12:01 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-04 18:13:27 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-04 18:13:27 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-04 19:14:53 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-04 19:14:53 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-04 20:16:30 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-04 21:17:45 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-04 22:18:49 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-04 23:19:39 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-04 23:19:39 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 00:21:59 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 00:21:59 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 01:23:12 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 02:26:08 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 02:26:08 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 03:10:18 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:10:18 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 03:18:44 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:18:44 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 03:24:55 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:27:28 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:28:15 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:28:48 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:30:03 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:30:16 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:30:26 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 03:30:26 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:30:29 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 03:30:29 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:30:34 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:30:39 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:31:10 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:30:29 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 03:31:10 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 03:33:47 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 03:33:47 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:34:02 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 03:34:02 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:34:07 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:34:08 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+- - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 03:34:02 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 03:37:14 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:37:14 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 03:42:09 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:43:06 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:44:29 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:45:08 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:46:07 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:47:28 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:47:28 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 03:53:02 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:54:57 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:54:57 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 03:57:45 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 03:57:45 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 04:21:29 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 04:23:05 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 04:24:33 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 04:27:51 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 04:29:14 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 04:29:14 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 05:30:56 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 06:32:21 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 06:32:21 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 06:52:08 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 07:09:16 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 07:31:48 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 07:33:47 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 07:35:01 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 07:35:01 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 08:36:14 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 08:59:54 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 09:08:14 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 09:09:16 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 09:09:18 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 09:09:34 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 09:09:34 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 09:09:58 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 09:30:38 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 10:33:18 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 11:35:00 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 12:35:42 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 13:41:33 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 14:10:52 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 14:13:44 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 14:13:53 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+- - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 14:14:00 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 14:14:00 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 14:14:15 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-05 14:14:15 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 14:14:43 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 14:16:31 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-05 14:29:25 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 

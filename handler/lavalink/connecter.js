@@ -5,7 +5,7 @@ module.exports = (bot) => {
     config.lava_settings.node_1,
     config.lava_settings.Host_password,
     true,
-    false
+    true
   );
 
   /*bot.createLavalinkConnection(config.lava_settings.node_2, config.lava_settings.Host_password, debug, ssl);*/
