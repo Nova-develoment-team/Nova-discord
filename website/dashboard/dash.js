@@ -19,10 +19,7 @@ module.exports = (app, dash, bot, express) => {
 
 
 
-    app.get("/login", async (req, res) => {
-      res.redirect(dash.generateUrl)
-      debug('New request on /login')
-    })
+   
     
 
   function requestid(length) {
@@ -69,11 +66,11 @@ app.get('/requestid',async (req, res) => {
     res.redirect(`/requestid?redirect_uri=/console&rqid=${requestid}`);
     if(config.debug.iplogging == true){
       fs.readFile(
-  "/root/home/Nova/logs/website/DashboardIpLogs.txt",
+  config.bot_settings.path+"logs/website/DashboardIpLogs.txt",
   "utf8",
   (err, data) => {
     var abc = fs.createWriteStream(
-      `/root/home/Nova/logs/website/DashboardIpLogs.txt`
+      config.bot_settings.path+`logs/website/DashboardIpLogs.txt`
     );
     abc.write(`${data} \n`);
     abc.write(`${formatted} || ${req.connection.remoteAddress} ||\n `);
@@ -91,10 +88,11 @@ app.get('/requestid',async (req, res) => {
   });
 
   
+
   app.get("/", async (req, res) => {
     let b = dash.generateUrl();
     if(req.session.act){
-    var content = fs.readFileSync(__dirname + "/indexalogin.ejs");
+    var content = fs.readFileSync(__dirname + "/pages/default/indexalogin.ejs");
     var file = content.toString();
     let guser = await dash.getUser(req.session.act)
     req.infodiscriminator = guser.discriminator;
@@ -102,15 +100,15 @@ app.get('/requestid',async (req, res) => {
     req.infousername = guser.username; 
     req.infoavatar = guser.avatar;
   
-   res.render(__dirname +'/indexalogin.ejs', {
+   res.render(__dirname +'/pages/default/indexalogin.ejs', {
     user: guser,
     config: config
    })
     }
  else{
-  var content = fs.readFileSync(__dirname + "/index.ejs");
+  var content = fs.readFileSync(__dirname + "/pages/default/index.ejs");
     var file = content.toString();
-    res.render(__dirname +'/index.ejs', {
+    res.render(__dirname +'/pages/default/index.ejs', {
       url: b,
       config: config
     })
@@ -118,11 +116,11 @@ app.get('/requestid',async (req, res) => {
  }   
     if(config.debug.iplogging == true){
       fs.readFile(
-  "/root/home/Nova/logs/website/DashboardIpLogs.txt",
+  config.bot_settings.path+"logs/website/DashboardIpLogs.txt",
   "utf8",
   (err, data) => {
     var abc = fs.createWriteStream(
-      `/root/home/Nova/logs/website/DashboardIpLogs.txt`
+      config.bot_settings.path+`logs/website/DashboardIpLogs.txt`
     );
     abc.write(`${data} \n`);
     abc.write(`${formatted} || ${req.connection.remoteAddress} ||\n `);
@@ -138,19 +136,20 @@ app.get('/requestid',async (req, res) => {
       );
     }
     if (config.website_settings.Maintnance == true) {
-      res.send("website in maintenance");
+res.redirect("/maintenance")
     }
   });
+
 
   app.get("/console", async (req, res) => {
 
     if(config.debug.iplogging == true){
       fs.readFile(
-  "/root/home/Nova/logs/website/DashboardIpLogs.txt",
+  config.bot_settings.path+"logs/website/DashboardIpLogs.txt",
   "utf8",
   (err, data) => {
     var abc = fs.createWriteStream(
-      `/root/home/Nova/logs/website/DashboardIpLogs.txt`
+      config.bot_settings.path+`logs/website/DashboardIpLogs.txt`
     );
     abc.write(`${data} \n`);
     abc.write(`${formatted} || ${req.connection.remoteAddress} ||\n `);
@@ -167,17 +166,16 @@ app.get('/requestid',async (req, res) => {
         }
     let b = dash.generateUrl();
     if (req.session.act) {
-      const content = fs.readFileSync(__dirname + "/dash.ejs");
+      const content = fs.readFileSync(__dirname + "/pages/console/dash.ejs");
       const file = content.toString();
       let guser = await dash.getUser(req.session.act)
       req.infodiscriminator = guser.discriminator;
      req.infoid = guser.id;
       req.infousername = guser.username; 
       req.infoavatar = guser.avatar;
-      res.render(__dirname +'/dash.ejs', {
+      res.render(__dirname +'/pages/console/dash.ejs', {
         user: guser,
         config: config
-
        })
     } else {
       res.redirect(b);
@@ -192,11 +190,11 @@ app.get('/requestid',async (req, res) => {
     res.redirect("/");
     if(config.debug.iplogging == true){
       fs.readFile(
-  "/root/home/Nova/logs/website/DashboardIpLogs.txt",
+  config.bot_settings.path+"logs/website/DashboardIpLogs.txt",
   "utf8",
   (err, data) => {
     var abc = fs.createWriteStream(
-      `/root/home/Nova/logs/website/DashboardIpLogs.txt`
+      config.bot_settings.path+`logs/website/DashboardIpLogs.txt`
     );
     abc.write(`${data} \n`);
     abc.write(`${formatted} || ${req.connection.remoteAddress} ||\n `);
@@ -217,11 +215,11 @@ app.get('/requestid',async (req, res) => {
 
     if(config.debug.iplogging == true){
       fs.readFile(
-  "/root/home/Nova/logs/website/DashboardIpLogs.txt",
+  config.bot_settings.path+"logs/website/DashboardIpLogs.txt",
   "utf8",
   (err, data) => {
     var abc = fs.createWriteStream(
-      `/root/home/Nova/logs/website/DashboardIpLogs.txt`
+      config.bot_settings.path+`logs/website/DashboardIpLogs.txt`
     );
     abc.write(`${data} \n`);
     abc.write(`${formatted} || ${req.connection.remoteAddress} ||\n `);
@@ -252,11 +250,11 @@ app.get('/requestid',async (req, res) => {
 
     if(config.debug.iplogging == true){
       fs.readFile(
-  "/root/home/Nova/logs/website/DashboardIpLogs.txt",
+  config.bot_settings.path+"logs/website/DashboardIpLogs.txt",
   "utf8",
   (err, data) => {
     var abc = fs.createWriteStream(
-      `/root/home/Nova/logs/website/DashboardIpLogs.txt`
+      config.bot_settings.path+`logs/website/DashboardIpLogs.txt`
     );
     abc.write(`${data} \n`);
     abc.write(`${formatted} || ${req.connection.remoteAddress} ||\n `);
@@ -299,7 +297,7 @@ app.get('/requestid',async (req, res) => {
                           `;
         }
       }
-      const selection = fs.readFileSync(__dirname + "/serverselection.ejs");
+      const selection = fs.readFileSync(__dirname + "/pages/serverselection.ejs");
       const selectfile = selection.toString();
       let guser = await dash.getUser(req.session.act)
 
@@ -307,7 +305,7 @@ app.get('/requestid',async (req, res) => {
       req.infoid = guser.id;
        req.infousername = guser.username; 
        req.infoavatar = guser.avatar;
-       res.render(__dirname +'/serverselection.ejs', {
+       res.render(__dirname +'/pages/console/serverselection.ejs', {
         user: guser,
         config: config,
         ats: bb.replace("undefined",""),
@@ -327,11 +325,11 @@ app.get('/requestid',async (req, res) => {
   app.get('/console/dashboard/:id', async (req,res) => {
     if(config.debug.iplogging == true){
       fs.readFile(
-  "/root/home/Nova/logs/website/DashboardIpLogs.txt",
+  config.bot_settings.path+"logs/website/DashboardIpLogs.txt",
   "utf8",
   (err, data) => {
     var abc = fs.createWriteStream(
-      `/root/home/Nova/logs/website/DashboardIpLogs.txt`
+      config.bot_settings.path+`logs/website/DashboardIpLogs.txt`
     );
     abc.write(`${data} \n`);
     abc.write(`${formatted} || ${req.connection.remoteAddress} ||\n `);
@@ -351,7 +349,7 @@ app.get('/requestid',async (req, res) => {
 
     if (req.session.act){
 
-  const dashboard = fs.readFileSync(__dirname + "/dashboard.ejs");
+  const dashboard = fs.readFileSync(__dirname + "/pages/dashboard.ejs");
   const dashboardfile = dashboard.toString();
 /*
   */
@@ -373,8 +371,8 @@ app.get('/requestid',async (req, res) => {
         }
       }
       else {
-        res.status('401').sendFile(__dirname+"/forbidden.ejs")
-      }
+
+res.redirect('/forbidden')      }
       
     }
     else{
@@ -390,11 +388,11 @@ app.get('/requestid',async (req, res) => {
   app.get("/api/setprefix/:id", async (req, res) => {
     if(config.debug.iplogging == true){
       fs.readFile(
-  "/root/home/Nova/logs/website/DashboardIpLogs.txt",
+  config.bot_settings.path+"logs/website/DashboardIpLogs.txt",
   "utf8",
   (err, data) => {
     var abc = fs.createWriteStream(
-      `/root/home/Nova/logs/website/DashboardIpLogs.txt`
+      config.bot_settings.path+`logs/website/DashboardIpLogs.txt`
     );
     abc.write(`${data} \n`);
     abc.write(`${formatted} || ${req.connection.remoteAddress} ||\n `);
@@ -421,7 +419,7 @@ app.get('/requestid',async (req, res) => {
         );
         res.redirect(`/console/dashboard/${req.params.id}`);
       } else {
-        res.status('401').sendFile(__dirname+"/forbidden.ejs")
+res.redirect('/forbidden')
       }
     } else {
       let b = dash.generateUrl();
@@ -447,124 +445,27 @@ app.get('/requestid',async (req, res) => {
 
   client.on("error", console.log);
 
-  app.get('/command/edit',  async (req, res) => {
+  app.get('/console/admin/command/edit',  async (req, res) => {
     let pathh = req.query.path
     let name = pathh.replace(/%2F/g, '/')
     pathh = pathh.replace(/%2F/g, ',')
     let code = fs.readFileSync(path.join(process.cwd(), pathh))
    let getuser = await dash.getUser(req.session.act)
-    if(getuser.id == "845312519001342052"){      res.send(`  <!DOCTYPE html>
-  <html>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.29.0/codemirror.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.29.0/codemirror.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.29.0/mode/javascript/javascript.js"></script>
-  <link rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/theme/monokai.min.css">
-  <head>
-  <title>EDIT COMMAND</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-  body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-          background-color: #001f3f;
-            color: #F5F5F5;
-                }
-  .topnav {
-  overflow: hidden;
-  background-color: #333;
-  }
-  .topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  }
-  .topnav a:hover {
-  background-color: #ddd;
-  color: black;
-  }
-  .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-  }
-  .topnav .icon {
-  display: none;
-  }
-  @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-  float: right;
-  display: block;
-  }
-  }
-  @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-  position: absolute;
-  right: 0;
-  top: 0;
-  }
-  .topnav.responsive a {
-  float: none;
-  display: block;
-  text-align: left;
-  }
-  }
-  </style>
-  </head>
-  <body>
-  <div class="topnav" id="myTopnav">
-  <a href="/console/admin/dashboard" class="active">dashboard</a>
-  <a href="/command">Command</a>
-  <a href="/guild">Guild</a>
-  <a href="/shell">Shell</a>
-  <a href="/djseval">DjsEval</a>
-  <a href="/aoieval">AoiEval</a> <a href="/stats">BotStats</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-  <i class="fa fa-bars"></i>
-  </a>
-  </div>
-  <form action='/command/save' method='post'>
-        <input type="hidden" name="path" value="${req.query.path}">
-        <input type="text" name="name" placeholder="Command name" value="${name.replace(command.replace('./', '') ,'')}" required>
-        <br>
-       
-  <textarea name="code" id="code" placeholder="your aoi.js code">${code}</textarea>
+        let guser = await dash.getUser(req.session.act)
+    req.infodiscriminator = guser.discriminator;
+   req.infoid = guser.id;
+    req.infousername = guser.username; 
+    req.infoavatar = guser.avatar;
   
-  <button class="btn" type="submit">Save!</button>
-  <br>
-  <br> <br>
-  <a href="/command/delete?path=${req.query.path}" onclick="return confirm('Are you sure want to delete this file?')">
-  <button type="button" style="text-align:center;background-color:red">Delete This file for permanent!</button></a>
-  <script>
-  function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-  x.className += " responsive";
-  } else {
-  x.className = "topnav";
-  }
-  }
-  </script>
-  <script>
-  window.onload = function () {
-  var editor = CodeMirror.fromTextArea($("#code")[0], {
-    lineNumbers: true,
-    lineWrapping: true,
-    mode: 'javascript',
-    theme: 'monokai'
-  });
-  };
-  </script>
-  </body>
-  </html>
-  `)
+    if(getuser.id == "845312519001342052"){      
+      res.render(__dirname+'/pages/admin/commandedit.ejs', {
+        code: code,
+        config: config,
+      user: guser,
+        name: name,
+        req: req,
+        command: command
+      })
 }else{
 res.send('not admin')
 }
@@ -583,7 +484,7 @@ res.send('not admin')
     fs.renameSync(process.cwd() + path.sep + name, process.cwd() + path.sep + nowname)
     let nowpath = nowname
   
-    res.redirect( `/command/edit?path=${nowpath.replace('./', '').replace('/','')}`)
+    res.redirect( `/console/admin/command/edit?path=${nowpath.replace('./', '').replace('/','')}`)
   }
   catch (e) {
 
@@ -677,145 +578,7 @@ res.send('not admin')
   })
   
   
-  app.get('/console/admin/login', login, async (req, res) => {
-    let getuser = await dash.getUser(req.session.act)
-    if(getuser.id == "845312519001342052"){    res.send(`
-  <!DOCTYPE html>
-  <html>
-  <head>
-  <title>dashboard LOGIN</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-  body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-          background-color: #001f3f;
-            color: #F5F5F5;
-                }
-  .login-form {
-  width: 300px;
-  margin: 0 auto;
-  font-family: Tahoma, Geneva, sans-serif;
-  }
-  .login-form h1 {
-  text-align: center;
-  color: #4d4d4d;
-  font-size: 24px;
-  padding: 20px 0 20px 0;
-  }
-  .login-form input[type="password"],
-  .login-form input[type="text"] {
-  width: 100%;
-  padding: 15px;
-  border: 1px solid #dddddd;
-  margin-bottom: 15px;
-  box-sizing:border-box;
-  }
-  .login-form input[type="submit"] {
-  width: 100%;
-  padding: 15px;
-  background-color: #535b63;
-  border: 0;
-  box-sizing: border-box;
-  cursor: pointer;
-  font-weight: bold;
-  color: #ffffff;
-  }
-  .topnav {
-  overflow: hidden;
-  background-color: #333;
-  }
-  .topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  }
-  .topnav a:hover {
-  background-color: #ddd;
-  color: black;
-  }
-  .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-  }
-  .topnav .icon {
-  display: none;
-  }
-  @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-  float: right;
-  display: block;
-  }
-  }
-  @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-  position: absolute;
-  right: 0;
-  top: 0;
-  }
-  .topnav.responsive a {
-  float: none;
-  display: block;
-  text-align: left;
-  }
-  }
-  </style>
-  </head>
-  <body>
-  <div class="topnav" id="myTopnav">
-  <a href="/console/admin/dashboard" class="active">dashboard</a>
-  <a href="/command">Command</a>
-  <a href="/guild">Guild</a>
-  <a href="/shell">Shell</a>
-  <a href="/djseval">DjsEval</a>
-  <a href="/aoieval">AoiEval</a> <a href="/stats">BotStats</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-  <i class="fa fa-bars"></i>
-  </a>
-  </div>
-  <div class="login-form">
-  <h1>Admin Login</h1>
-  <form action="auth" method="POST" encType="application/x-www-form-urlencoded">
-    <input type="text" name="username" placeholder="Username" required>
-    <input type="password" name="password" id="password" placeholder="Password" required>
-            <input type="checkbox" onclick="show()">Show Password
-  <script>
-  function show() {
-  var x = document.getElementById("password");
-  if (x.type === "password") {
-  x.type = "text";
-  } else {
-  x.type = "password";
-  }
-  }               
-  </script>
-    <input type="submit">
-  </form>
-        
-  </div>
-  <script>
-  function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-  x.className += " responsive";
-  } else {
-  x.className = "topnav";
-  }
-  }
-  </script>
-  </body>
-  </html>
-  `)
-}else{
-res.redirect('/')}
-    })
+ 
   
   
 
@@ -831,149 +594,14 @@ res.redirect('/')}
   let user2 = await bot.users.fetch('826320581518557194')
   let author2 = user2.username + "#" + user2.discriminator
   let getuser = await dash.getUser(req.session.act)
-    if(getuser.id == "845312519001342052"){    res.send(`
-  <!DOCTYPE html>
-  <html>
-  <head>
-  <title>dashboard</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-  body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-          background-color: #001f3f;
-            color: #F5F5F5;
-                }
-  .login-form {
-  width: 300px;
-  margin: 0 auto;
-  font-family: Tahoma, Geneva, sans-serif;
-  }
-  .login-form h1 {
-  text-align: center;
-  color: #4d4d4d;
-  font-size: 24px;
-  padding: 20px 0 20px 0;
-  }
-  .login-form input[type="password"],
-  .login-form input[type="text"] {
-  width: 100%;
-  padding: 15px;
-  border: 1px solid #dddddd;
-  margin-bottom: 15px;
-  box-sizing:border-box;
-  }
-  .login-form input[type="submit"] {
-  width: 100%;
-  padding: 15px;
-  background-color: #535b63;
-  border: 0;
-  box-sizing: border-box;
-  cursor: pointer;
-  font-weight: bold;
-  color: #ffffff;
-  }
-  .topnav {
-  overflow: hidden;
-  background-color: #333;
-  }
-  .topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  }
-  .topnav a:hover {
-  background-color: #ddd;
-  color: black;
-  }
-  .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-  }
-  .topnav .icon {
-  display: none;
-  }
-  @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-  float: right;
-  display: block;
-  }
-  }
-  @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-  position: absolute;
-  right: 0;
-  top: 0;
-  }
-  .topnav.responsive a {
-  float: none;
-  display: block;
-  text-align: left;
-  }
-  .button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  }
-  .button {
-  transition-duration: 0.4s;
-  }
-  .button:hover {
-  background-color: #4CAF50; /* Green */
-  color: white;
-  }
-  }
-  </style>
-  </head>
-  <body>
-  <div class="topnav" id="myTopnav">
-  <a href="/console/admin/dashboard" class="active">dashboard</a>
-  <a href="/command">Command</a>
-  <a href="/guild">Guild</a>
-  <a href="/shell">Shell</a>
-  <a href="/djseval">DjsEval</a>
-  <a href="/aoieval">AoiEval</a> <a href="/stats">BotStats</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-  <i class="fa fa-bars"></i>
-  </a>
-  </div>
-  <div align=center style="color:white;text-align: center;font-size:1.5vw">
-  <b style="color:white;text-align: center;font-size:5vw">Admin Panel For : ${bot.user.username}</b>
-  <br>
-  <br> <br> <br>
-  <a href="/reboot" onclick="return confirm('Are you sure want to restart the server?')">
-  <button type="button" style="background-color: #4CAF50;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;" >Restart server</button></a>
-  </div>
-  <script>
-  function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-  x.className += " responsive";
-  } else {
-  x.className = "topnav";
-  }
-  }
-  </script>
-  </body>
-  </html>
-  `)
+    if(getuser.id == "845312519001342052"){    res.render(__dirname+`/pages/admin/dashboard.ejs`, {
+      bot: bot
+    })
 }else{
 res.redirect('/')}
     })
     
-  app.get('/command',  async(req,res) => {
+  app.get('/console/admin/command',  async(req,res) => {
     let text = ''
   try{       
   function *walkSync(dir) {
@@ -997,7 +625,7 @@ res.redirect('/')}
   <button type="button"> <img src="https://cdn.discordapp.com/emojis/837524136837251093.png" width="150" height="50"/><br>
   ${rr}</button></a></li>`*/
   text += `<label><li>
-  <a href="/command/edit?path=${pathh}"><input type="image" name="guild" src="https://cdn.discordapp.com/emojis/837524136837251093.png" width="150px" height="150px" class="rounded-circle" onerror="this.src='https://cdn.discordapp.com/emojis/837524136837251093.png'" style="margin: 70px;border: 5px solid #ff0000;"  required><br><b><p style="color:white;text-align: center;">${rr}</p></b></a></li></label>`
+  <a href="/console/admin/command/edit?path=${pathh}"><input type="image" name="guild" src="https://cdn.discordapp.com/emojis/837524136837251093.png" width="150px" height="150px" class="rounded-circle" onerror="this.src='https://cdn.discordapp.com/emojis/837524136837251093.png'" style="margin: 70px;border: 5px solid #ff0000;"  required><br><b><p style="color:white;text-align: center;">${rr}</p></b></a></li></label>`
   }
   }
     catch(e) {
@@ -1005,288 +633,38 @@ res.redirect('/')}
         }
            let getuser = await dash.getUser(req.session.act)
     if(getuser.id == "845312519001342052"){
-    res.send(`
-  <!DOCTYPE html>
-  <html>
-  <head>
-  <title>dashboard COMMAND</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-  body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-          background-color: #001f3f;
-            color: #F5F5F5;
-                }
-  .login-form {
-  width: 300px;
-  margin: 0 auto;
-  font-family: Tahoma, Geneva, sans-serif;
-  }
-  .login-form h1 {
-  text-align: center;
-  color: #4d4d4d;
-  font-size: 24px;
-  padding: 20px 0 20px 0;
-  }
-  .login-form input[type="password"],
-  .login-form input[type="text"] {
-  width: 100%;
-  padding: 15px;
-  border: 1px solid #dddddd;
-  margin-bottom: 15px;
-  box-sizing:border-box;
-  }
-  .login-form input[type="submit"] {
-  width: 100%;
-  padding: 15px;
-  background-color: #535b63;
-  border: 0;
-  box-sizing: border-box;
-  cursor: pointer;
-  font-weight: bold;
-  color: #ffffff;
-  }
-  .topnav {
-  overflow: hidden;
-  background-color: #333;
-  }
-  .topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  }
-  .topnav a:hover {
-  background-color: #ddd;
-  color: black;
-  }
-  .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-  }
-  .topnav .icon {
-  display: none;
-  }
-  @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-  float: right;
-  display: block;
-  }
-  }
-  @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-  position: absolute;
-  right: 0;
-  top: 0;
-  }
-  .topnav.responsive a {
-  float: none;
-  display: block;
-  text-align: left;
-  }
-  }
-  </style>
-  </head>
-  <body>
-  <div class="topnav" id="myTopnav">
-  <a href="/console/admin/dashboard" class="active">dashboard</a>
-  <a href="/command">Command</a>
-  <a href="/guild">Guild</a>
-  <a href="/shell">Shell</a>
-  <a href="/djseval">DjsEval</a>
-  <a href="/aoieval">AoiEval</a> <a href="/stats">BotStats</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-  <i class="fa fa-bars"></i>
-  </a>
-  </div>
-  <div align=center>
-  <h1>Create New Commands:<h1>
-  <a href="/command/update">
-  <button type="button" style="background-color: GREEN;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;
-  ">Update Commands</button></a> <a href="/command/create">
-  <button type="button" style="background-color: RED;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;
-  ">Create new command!</button></a>
-  <br>
-  <h1>Or Edit commands:</h1>
-  <br>
-  <input type="search" id="search" onkeyup="search()" placeholder="Search command file">
-  <ul id="list">
-  ${text}
-  </ul>
-  </div>
-  </div>
-  <script>
-  function search() {
-  var input, filter, ul, li, a, i;
-  input = document.getElementById("search");
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("list");
-  li = ul.getElementsByTagName("li");
-  for (i = 0; i < li.length; i++) {
-  a = li[i].getElementsByTagName("a")[0];
-  if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-  li[i].style.display = "";
-  } else {
-  li[i].style.display = "none";
-  }
-  }
-  }
-  function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-  x.className += " responsive";
-  } else {
-  x.className = "topnav";
-  }
-  }
-  </script>
-  </body>
-  </html>
-  `)
+    res.render(__dirname+`/pages/admin/command.ejs`,{
+      text: text
+    })
 }else{
 res.redirect('/')}
     })
   
   
-  app.get('/guild', async (req,res) => {
-    let guild = ''
+  app.get('/console/admin/guild', async (req,res) => {
     let server = bot.guilds.cache.map(z=>z)
+    let guild = ''
   for(let i = 0;i<server.length;i++){
-  /*guild += `<li><a href="/guild/info?id=${server[i].id}">
+  /*guild += `<li><a href="/console/admin/guild/info?id=${server[i].id}">
   <button type="button"> <img src="${server[i].iconURL({dynamic: true, size: 4096})}" width="150" /><br>
   ${server[i].name}</button></a></li>`*/
   guild += `<label><li>
-  <a href="/guild/info?id=${server[i].id}"><input type="image" name="guild" value="${server[i].id}" src="${server[i].iconURL({dynamic: true, size: 4096})}" width="150px" height="150px" class="rounded-circle" onerror="this.src='https://www.freepnglogos.com/uploads/discord-logo-png/concours-discord-cartes-voeux-fortnite-france-6.png'" style="margin: 70px;border: 5px solid #ff0000;"  required><br><b><p style="color:white;text-align: center;">${server[i].name}</p></b></a>
+  <a href="/console/admin/guild/info?id=${server[i].id}"><input type="image" name="guild" value="${server[i].id}" src="${server[i].iconURL({dynamic: true, size: 4096})}" width="150px" height="150px" class="rounded-circle" onerror="this.src='https://www.freepnglogos.com/uploads/discord-logo-png/concours-discord-cartes-voeux-fortnite-france-6.png'" style="margin: 70px;border: 5px solid #ff0000;"  required><br><b><p style="color:white;text-align: center;">${server[i].name}</p></b></a>
           </li></label>`
   
   }
   let getuser = await dash.getUser(req.session.act)
     if(getuser.id == "845312519001342052"){
-  res.send(`
-  <!DOCTYPE html>
-  <html>
-  <head>
-  <title>dashboard GUILD</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-  body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-          background-color: #001f3f;
-            color: #F5F5F5;
-                }
-  .topnav {
-  overflow: hidden;
-  background-color: #333;
-  }
-  .topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  }
-  .topnav a:hover {
-  background-color: #ddd;
-  color: black;
-  }
-  .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-  }
-  .topnav .icon {
-  display: none;
-  }
-  @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-  float: right;
-  display: block;
-  }
-  }
-  @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-  position: absolute;
-  right: 0;
-  top: 0;
-  }
-  .topnav.responsive a {
-  float: none;
-  display: block;
-  text-align: left;
-  }
-  }
-  </style>
-  </head>
-  <body>
-  <div class="topnav" id="myTopnav">
-  <a href="/console/admin/dashboard" class="active">dashboard</a>
-  <a href="/command">Command</a>
-  <a href="/guild">Guild</a>
-  <a href="/shell">Shell</a>
-  <a href="/djseval">DjsEval</a>
-  <a href="/aoieval">AoiEval</a> <a href="/stats">BotStats</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-  <i class="fa fa-bars"></i>
-  </a>
-  </div>
-  <div style="text-align: center;">
-  <h1>Guilds the bot is in:</h1>
-  <br>
-  <input align=center type="search" id="search" onkeyup="search()" placeholder="Search Guild Name">
-  <ul id="list">
-  ${guild}
-  </ul>
-  </div>
-  </div>
-  <script>
-  function search() {
-  var input, filter, ul, li, a, i;
-  input = document.getElementById("search");
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("list");
-  li = ul.getElementsByTagName("li");
-  for (i = 0; i < li.length; i++) {
-  a = li[i].getElementsByTagName("a")[0];
-  if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-  li[i].style.display = "";
-  } else {
-  li[i].style.display = "none";
-  }
-  }
-  }
-  function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-  x.className += " responsive";
-  } else {
-  x.className = "topnav";
-  }
-  }
-  </script>
-  </body>
-  </html>
-  `)
+  res.render(__dirname+`/pages/admin/guild.ejs`, {
+    guild: guild
+  })
 }else{
 res.redirect('/')}
   
     })
   
   
-  app.get('/guild/info',  async (req,res) => {
+  app.get('/console/admin/guild/info',  async (req,res) => {
     let info = ''
     try {
   let guild = bot.guilds.cache.get(req.query.id)
@@ -1297,95 +675,11 @@ res.redirect('/')}
         }
         let getuser = await dash.getUser(req.session.act)
     if(getuser.id == "845312519001342052"){
-    res.send(`
-  <!DOCTYPE html>
-  <html>
-  <head>
-  <title>GUILD INFO</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-  body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-          background-color: #001f3f;
-            color: #F5F5F5;
-                }
-  .topnav {
-  overflow: hidden;
-  background-color: #333;
-  }
-  .topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  }
-  .topnav a:hover {
-  background-color: #ddd;
-  color: black;
-  }
-  .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-  }
-  .topnav .icon {
-  display: none;
-  }
-  @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-  float: right;
-  display: block;
-  }
-  }
-  @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-  position: absolute;
-  right: 0;
-  top: 0;
-  }
-  .topnav.responsive a {
-  float: none;
-  display: block;
-  text-align: left;
-  }
-  }
-  </style>
-  </head>
-  <body>
-  <div class="topnav" id="myTopnav">
-  <a href="/console/admin/dashboard" class="active">dashboard</a>
-  <a href="/command">Command</a>
-  <a href="/guild">Guild</a>
-  <a href="/shell">Shell</a>
-  <a href="/djseval">DjsEval</a>
-  <a href="/aoieval">AoiEval</a> <a href="/stats">BotStats</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-  <i class="fa fa-bars"></i>
-  </a>
-  </div>
-  ${info}
-  <br> <br> <br>
-  <a href="/guild/leave?id=${req.query.id}" onclick="return confirm('Are you sure want to leave ${bot.guilds.cache.get(req.query.id).name} guild?')">
-  <button type="button" style="text-align:center;background-color:red;height:30;width:30">Leave This Guild!</button></a>
-  <script>
-  function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-  x.className += " responsive";
-  } else {
-  x.className = "topnav";
-  }
-  }
-  </script>
-  </body>
-  </html>
-  `)
+      res.render(__dirname+'/pages/admin/ginfo.ejs', {
+        info: info,
+        bot: bot,
+        req: req
+      })
 }else{
 res.redirect('/')}
     })
@@ -1467,11 +761,12 @@ res.redirect('/')}
   <body>
   <div class="topnav" id="myTopnav">
   <a href="/console/admin/dashboard" class="active">dashboard</a>
-  <a href="/command">Command</a>
-  <a href="/guild">Guild</a>
-  <a href="/shell">Shell</a> 
-  <a href="/djseval">DjsEval</a>
-  <a href="/aoieval">AoiEval</a> <a href="/stats">BotStats</a>
+    <a href="/console/admin/command">Command</a>   
+    <a href="/console/admin/guild">Guild</a>   
+    <a href="/console/admin/shell">Shell</a>    
+    <a href="/console/admin/djseval">DjsEval</a>   
+    <a href="/console/admin/aoieval">AoiEval</a>   
+    <a href="/console/admin/stats">BotStats</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
   <i class="fa fa-bars"></i>
   </a>
@@ -1584,11 +879,12 @@ res.redirect('/')}
   <body>
   <div class="topnav" id="myTopnav">
   <a href="/console/admin/dashboard" class="active">dashboard</a>
-  <a href="/command">Command</a>
-  <a href="/guild">Guild</a>
-  <a href="/shell">Shell</a>
-  <a href="/djseval">DjsEval</a>
-  <a href="/aoieval">AoiEval</a> <a href="/stats">BotStats</a>
+      <a href="/console/admin/command">Command</a>   
+    <a href="/console/admin/guild">Guild</a>   
+    <a href="/console/admin/shell">Shell</a>    
+    <a href="/console/admin/djseval">DjsEval</a>   
+    <a href="/console/admin/aoieval">AoiEval</a>   
+    <a href="/console/admin/stats">BotStats</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
   <i class="fa fa-bars"></i>
   </a>
@@ -1686,12 +982,12 @@ res.redirect('/')}
   <body>
   <div class="topnav" id="myTopnav">
   <a href="/console/admin/dashboard" class="active">dashboard</a>
-  <a href="/command">Command</a>
-  <a href="/guild">Guild</a>
-  <a href="/shell">Shell</a> 
-  <a href="/djseval">DjsEval</a>
-  <a href="/aoieval">AoiEval</a> <a href="/stats">BotStats</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <a href="/console/admin/command">Command</a>   
+    <a href="/console/admin/guild">Guild</a>   
+    <a href="/console/admin/shell">Shell</a>    
+    <a href="/console/admin/djseval">DjsEval</a>   
+    <a href="/console/admin/aoieval">AoiEval</a>   
+    <a href="/console/admin/stats">BotStats</a>  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
   <i class="fa fa-bars"></i>
   </a>
   </div>
@@ -1786,11 +1082,12 @@ res.redirect('/')}
   <body>
   <div class="topnav" id="myTopnav">
   <a href="/console/admin/dashboard" class="active">dashboard</a>
-  <a href="/command">Command</a>
-  <a href="/guild">Guild</a>
-  <a href="/shell">Shell</a> 
-  <a href="/djseval">DjsEval</a>
-  <a href="/aoieval">AoiEval</a> <a href="/stats">BotStats</a>
+     <a href="/console/admin/command">Command</a>   
+    <a href="/console/admin/guild">Guild</a>   
+    <a href="/console/admin/shell">Shell</a>    
+    <a href="/console/admin/djseval">DjsEval</a>   
+    <a href="/console/admin/aoieval">AoiEval</a>   
+    <a href="/console/admin/stats">BotStats</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
   <i class="fa fa-bars"></i>
   </a>
@@ -1820,7 +1117,7 @@ res.redirect('/')}
   
   
   
-  app.get('/shell',  async(req, res) => {
+  app.get('/console/admin/shell',  async(req, res) => {
     
     let getuser = await dash.getUser(req.session.act)
     if(getuser.id == "845312519001342052"){
@@ -1888,12 +1185,13 @@ res.redirect('/')}
   <body>
   <div class="topnav" id="myTopnav">
   <a href="/console/admin/dashboard" class="active">dashboard</a>
-  <a href="/command">Command</a>
-  <a href="/guild">Guild</a>
-  <a href="/shell">Shell</a> 
-  <a href="/djseval">DjsEval</a>
-  <a href="/aoieval">AoiEval</a> <a href="/stats">BotStats</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <a href="/console/admin/command">Command</a>   
+    <a href="/console/admin/guild">Guild</a>   
+    <a href="/console/admin/shell">Shell</a>    
+    <a href="/console/admin/djseval">DjsEval</a>   
+    <a href="/console/admin/aoieval">AoiEval</a>   
+    <a href="/console/admin/stats">BotStats</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
   <i class="fa fa-bars"></i>
   </a>
   </div>
@@ -1994,11 +1292,7 @@ res.redirect('/')}
   <body>
   <div class="topnav" id="myTopnav">
   <a href="/console/admin/dashboard" class="active">dashboard</a>
-  <a href="/command">Command</a>
-  <a href="/guild">Guild</a>
-  <a href="/shell">Shell</a> 
-  <a href="/djseval">DjsEval</a>
-  <a href="/aoieval">AoiEval</a> <a href="/stats">BotStats</a>
+  <a href="/console/admin/command">Command</a>   <a href="/console/admin/guild">Guild</a>   <a href="/console/admin/shell">Shell</a>    <a href="/console/admin/djseval">DjsEval</a>   <a href="/console/admin/aoieval">AoiEval</a>   <a href="/console/admin/stats">BotStats</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
   <i class="fa fa-bars"></i>
   </a>
@@ -2024,7 +1318,7 @@ res.redirect('/')}
   `)
   })
   
-  app.get('/djseval',  async(req, res) => {
+  app.get('/console/admin/djseval',  async(req, res) => {
     let getuser = await dash.getUser(req.session.act)
     if(getuser.id == "845312519001342052"){
   res.send(`
@@ -2215,11 +1509,12 @@ res.redirect('/')}
   <body>
   <div class="topnav" id="myTopnav">
   <a href="/console/admin/dashboard" class="active">dashboard</a>
-  <a href="/command">Command</a>
-  <a href="/guild">Guild</a>
-  <a href="/shell">Shell</a> 
-  <a href="/djseval">DjsEval</a>
-  <a href="/aoieval">AoiEval</a> <a href="/stats">BotStats</a>
+      <a href="/console/admin/command">Command</a>   
+    <a href="/console/admin/guild">Guild</a>  
+    <a href="/console/admin/shell">Shell</a>   
+    <a href="/console/admin/djseval">DjsEval</a>  
+    <a href="/console/admin/aoieval">AoiEval</a>  
+    <a href="/console/admin/stats">BotStats</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
   <i class="fa fa-bars"></i>
   </a>
@@ -2258,7 +1553,7 @@ res.redirect('/')}
   })
   
   
-  app.get('/aoieval',  async(req, res) => {
+  app.get('/console/admin/aoieval',  async(req, res) => {
     let getuser = await dash.getUser(req.session.act)
     if(getuser.id == "845312519001342052"){
   res.send(`
@@ -2330,11 +1625,12 @@ res.redirect('/')}
   <body>
   <div class="topnav" id="myTopnav">
   <a href="/console/admin/dashboard" class="active">dashboard</a>
-  <a href="/command">Command</a>
-  <a href="/guild">Guild</a>
-  <a href="/shell">Shell</a>
-  <a href="/djseval">DjsEval</a>
-  <a href="/aoieval">AoiEval</a> <a href="/stats">BotStats</a>
+      <a href="/console/admin/command">Command</a>   
+    <a href="/console/admin/guild">Guild</a>  
+    <a href="/console/admin/shell">Shell</a>   
+    <a href="/console/admin/djseval">DjsEval</a>  
+    <a href="/console/admin/aoieval">AoiEval</a>  
+    <a href="/console/admin/stats">BotStats</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
   <i class="fa fa-bars"></i>
   </a>
@@ -2569,11 +1865,12 @@ res.redirect('/')}
   <body>
   <div class="topnav" id="myTopnav">
   <a href="/console/admin/dashboard" class="active">dashboard</a>
-  <a href="/command">Command</a>
-  <a href="/guild">Guild</a>
-  <a href="/shell">Shell</a> 
-  <a href="/djseval">DjsEval</a>
-  <a href="/aoieval">AoiEval</a> <a href="/stats">BotStats</a>
+    <a href="/console/admin/command">Command</a>   
+    <a href="/console/admin/guild">Guild</a>  
+    <a href="/console/admin/shell">Shell</a>   
+    <a href="/console/admin/djseval">DjsEval</a>  
+    <a href="/console/admin/aoieval">AoiEval</a>  
+    <a href="/console/admin/stats">BotStats</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
   <i class="fa fa-bars"></i>
   </a>
@@ -2631,7 +1928,7 @@ res.redirect('/')}
   })
   
   
-  app.get('/stats',async(req,res) => {
+  app.get('/console/admin/stats',async(req,res) => {
     let getuser = await dash.getUser(req.session.act)
     if(getuser.id == "845312519001342052"){
   res.send(`
@@ -2697,12 +1994,12 @@ res.redirect('/')}
   <body>
   <div class="topnav" id="myTopnav">
   <a href="/console/admin/dashboard" class="active">dashboard</a>
-  <a href="/command">Command</a>
-  <a href="/guild">Guild</a>
-  <a href="/shell">Shell</a> 
-  <a href="/djseval">DjsEval</a>
-  <a href="/aoieval">AoiEval</a>
-  <a href="/stats">BotStats</a>
+  <a href="/console/admin/command">Command</a>
+  <a href="/console/admin/guild">Guild</a>
+  <a href="/console/admin/shell">Shell</a> 
+  <a href="/console/admin/djseval">DjsEval</a>
+  <a href="/console/admin/aoieval">AoiEval</a>
+  <a href="/console/admin/stats">BotStats</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
   <i class="fa fa-bars"></i>
   </a>
@@ -2738,6 +2035,15 @@ res.redirect('/')}
 res.redirect('/')}
   })
   
+   app.get("/login", async (req, res) => {
+     if(req.session.act){
+       res.redirect('/')
+     }else{
+   let b = dash.generateUrl();
+      res.redirect(b);
+      debug('New request on /login')
+     }
+    })
   function islogin(req,res,next) {
     if(req.session.user==user && req.session.pass==pass){
         return next()

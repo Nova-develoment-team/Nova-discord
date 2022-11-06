@@ -4,14 +4,17 @@ const dateTime = require("node-datetime");
 const dt = dateTime.create();
 const fs = require("fs");
 const formatted = dt.format("Y-m-d H:M:S");
+const config = require(`../../handler/botconfigs/config.js`);
+
 const debug = function (text) {
+
   console.debug(
     `${grey(`${formatted}`)} || ${chalk.bgBlue("[ DEBUG ]")} ${grey(" :: ")} ${green(
       `${text}`
     )}`
   );
-  fs.readFile("/root/home/Nova/logs/debug.log", "utf8", (err, data) => {
-    var abc = fs.createWriteStream(`/root/home/Nova/logs/debug.log`);
+  fs.readFile(config.bot_settings.path+"logs/debug.log", "utf8", (err, data) => {
+    var abc = fs.createWriteStream(config.bot_settings.path+`logs/error.log`);
     abc.write(`${data} \n`);
     abc.write(`${formatted} || [ DEBUG ] :: ${text}`);
     abc.write(
@@ -27,8 +30,8 @@ const error = function (text) {
       `${text}`
     )}`
   );
-  fs.readFile("/root/home/Nova/logs/error.log", "utf8", (err, data) => {
-    var abc = fs.createWriteStream(`/root/home/Nova/logs/error.log`);
+  fs.readFile(config.bot_settings.path+"logs/error.log", "utf8", (err, data) => {
+    var abc = fs.createWriteStream(config.bot_settings.path+`logs/error.log`);
     abc.write(`${data} \n`);
     abc.write(`${formatted} || [ ERROR ] :: ${text}`);
     abc.write(
@@ -44,8 +47,8 @@ const warn = function (text) {
       " :: "
     )} ${yellow(`${text}`)}`
   );
-  fs.readFile("/root/home/Nova/logs/warnings.log", "utf8", (err, data) => {
-    var abc = fs.createWriteStream(`/root/home/Nova/logs/warning.log`);
+  fs.readFile(config.bot_settings.path+"logs/warnings.log", "utf8", (err, data) => {
+    var abc = fs.createWriteStream(config.bot_settings.path+`logs/error.log`);
     abc.write(`${data} \n`);
     abc.write(`${formatted} || [ WARNING ] :: ${text}`);
     abc.write(

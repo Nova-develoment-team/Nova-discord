@@ -3,7 +3,7 @@
   "version": "6.0.9",
   "main": "index.js",
   "scripts": {
-    "start": "npm i && npm i aoi.js-plugins && node index.js",
+    "start": "node index.js",
     "dev": "npm i && npm i aoi.js-plugins && nodemon index.js "
   },
   "engines": {
@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aoi.js-plugins": "^1.6.2",
     "ascii-table": "^0.0.9",
     "body-parser": "^1.19.0",
     "chalk": "^4.1.2",

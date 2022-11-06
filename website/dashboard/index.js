@@ -30,7 +30,7 @@ module.exports = function (bot, port) {
     debug,
     warn,
     error,
-  } = require("/root/home/Nova/handler/events/Logger.js");
+  } = require("../../handler/events/Logger.js");
 const user = 'duckey'
 const pass = 'NovaDev'
 
@@ -77,7 +77,7 @@ const sessions = require("express-session");
   const dash = new plugins.Dash({
     clientID: "896303947311104041",
     clientSecret: config.dash_settings.secret,
-    redirectURI: "https://dashboard.nova-bot.tk/auth/callback",
+    redirectURI: config.website_settings.domain+"/auth/callback",
     bot: bot,
   });
 
@@ -113,8 +113,7 @@ const sessions = require("express-session");
           "Someone tried to access the api without having the right key"
         )}`
       );
-      res.status('401').sendFile(__dirname+"/401forbidden.html")
-    }
+res.redirect('/forbidden')    }
 
     res.send(
       `Data set successfully var: ${req.query.variable} ${req.query.guildid} ${req.query.value}`
@@ -142,8 +141,7 @@ const sessions = require("express-session");
       res.json({ error: "invalid key, operation denied ❌" });
     }
     if (config.website_settings.Maintnance == true) {
-      res.send('{message: "Api in maintenance brb"}');
-    }
+res.redirect('/maintenance')    }
   });
 
   app.get('/api/botVersionCheck', (req, res) => {
@@ -154,9 +152,21 @@ const sessions = require("express-session");
   })
   
   app.get("/404", (req, res) => {
-res.status(404).sendFile(__dirname+"/oof.html")
+res.status(404).render(__dirname+"/pages/error/page-not-found.ejs", {
+  config: config,
+})
+  })
+  app.get("/forbidden", (req, res) => {
+      res.status(401).render(__dirname+"/pages/error/forbidden.ejs", {
+        config: config
+      })
   })
 
+    app.get("/maintenance", (req, res) => {
+      res.render(__dirname+"/pages/error/maintenance.ejs", {
+        config: config
+      })
+  })
 app.get('/*', (req, res) => {
   res.redirect('/404')
 })

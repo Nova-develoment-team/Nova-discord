@@ -1,4 +1,5 @@
 # Introduction
+Nova is a fun multi use bot
 
 **NOTES**
 * dont run on replit

@@ -10,7 +10,8 @@ module.exports = {
   },
 
   bot_settings: {
-  ownerid: ""
+  ownerid: "",
+  path: "/home/runner/Nova-discord/"
   },
     events: {
     antiCrash: true,
@@ -33,7 +34,7 @@ module.exports = {
   },
 
   lava_settings: {
-    node_1: process.env.lavalink_node_1 /*The lavalink host, Should not add https:// or http:// */,
+    node_1: process.env.host /*The lavalink host, Should not add https:// or http:// */,
     Host_password: process.env.lavalink_password /* The lavalinkd host password */,
   },
 
