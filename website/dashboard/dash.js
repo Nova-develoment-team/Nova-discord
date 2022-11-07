@@ -14,14 +14,47 @@ const ejs = require('ejs')
 const command = "./Commands/Plugins"
 const user = config.admin_panel_settings.username
 const pass = config.admin_panel_settings.password
-module.exports = (app, dash, bot, express) => {
+module.exports = (app, bot, express) => {
   app.set('view engine', 'ejs');
 
+const passport = require("passport");
+  const bodyParser = require("body-parser");
+const session = require("express-session");
+const Strategy = require("passport-discord").Strategy;
+const MemoryStore = require("memorystore")(session);
 
-
-   
+  
+    app.use(session({
+          store: new MemoryStore({ checkPeriod: 86400000 }),
+          secret:
+"#@%#&^$^$%@$^$&%#$%@#$%$^%&$%^#$%@#$%#E%#%@$FEErfgr3g#%GT%536c53cc6%5%tv%4y4hrgrggrgrgf4n",
+          resave: false,
+          saveUninitialized: false
+        })
+    );
     
+passport.serializeUser((user, done) => done(null, user));
+    passport.deserializeUser((obj, done) => done(null, obj));
 
+    passport.use(
+        new Strategy(
+          {
+            clientID: "896303947311104041",
+            clientSecret: config.dash_settings.secret,
+            callbackURL: config.website_settings.domain+"/auth/callback",
+            scope: ["identify", "guilds"]
+          },
+          (accessToken, refreshToken, profile, done) => {
+            process.nextTick(() => done(null, profile));
+          }
+        )
+    );
+
+    
+    app.use(passport.initialize());
+    app.use(passport.session());
+    app.use(bodyParser.json());
+  
   function requestid(length) {
     var result           = '';
     var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
@@ -40,61 +73,29 @@ app.get('/requestid',async (req, res) => {
   app.disable('x-powered-by');
   const path = require('path')
   app.set('trust proxy', ['loopback', 'linklocal', 'uniquelocal'])
-  app.use(express.static(path.join(__dirname + '/assets')))
+
   
 
   
-  app.get("/auth/callback", async (req, res) => {
-    let code = req.query.code;
-    let ac = await dash.getAccessToken(code);
-    req.session.act = ac;
-    let guser = await dash.getUser(req.session.act)
-    req.infodiscriminator = guser.discriminator;
-   req.infoid = guser.id;
-    req.infousername = guser.username; 
-    req.infoavatar = guser.avatar;
-  
+app.get("/auth/login", passport.authenticate("discord", { permissions: 1377748512375 }));
 
-   var AsciiTable = require('ascii-table')
-   var table = new AsciiTable('New user login')
-   table
-     .setHeading('Username', 'discriminator', 'session')
-     .addRow(req.infousername, req.infodiscriminator, req.session.act)
 
-  console.log(table.toString())
-   
-    res.redirect(`/requestid?redirect_uri=/console&rqid=${requestid}`);
-    if(config.debug.iplogging == true){
-      fs.readFile(
-  config.bot_settings.path+"logs/website/DashboardIpLogs.txt",
-  "utf8",
-  (err, data) => {
-    var abc = fs.createWriteStream(
-      config.bot_settings.path+`logs/website/DashboardIpLogs.txt`
-    );
-    abc.write(`${data} \n`);
-    abc.write(`${formatted} || ${req.connection.remoteAddress} ||\n `);
-    abc.write(
-      "< - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > \n"
-    );
-    abc.end();
-    
-  }
-);
-      debug(
-        `User login || type: callback || IP: ${req.connection.remoteAddress} || Added to list of known ips`
-      );
-    }
-  });
+
+        app.get('/auth/callback', passport.authenticate('discord', {
+    failureRedirect: '/'
+}), function(req, res) {
+    res.redirect('/') // Successful auth
+});
+
 
   
 
   app.get("/", async (req, res) => {
-    let b = dash.generateUrl();
-    if(req.session.act){
+    let b = "/auth/login"
+    if(req.user){
     var content = fs.readFileSync(__dirname + "/pages/default/indexalogin.ejs");
     var file = content.toString();
-    let guser = await dash.getUser(req.session.act)
+    let guser = req.user
     req.infodiscriminator = guser.discriminator;
    req.infoid = guser.id;
     req.infousername = guser.username; 
@@ -164,7 +165,7 @@ res.redirect("/maintenance")
         `User connected to website || type: management console  || IP: ${req.connection.remoteAddress} || Added to list of known ips`
       );
         }
-    let b = dash.generateUrl();
+    let b = "/auth/login"
     if (req.session.act) {
       const content = fs.readFileSync(__dirname + "/pages/console/dash.ejs");
       const file = content.toString();
@@ -312,7 +313,7 @@ res.redirect("/maintenance")
         manage: aa.replace("undefined","")
        })
     } else {
-      let b = dash.generateUrl();
+      let b = "/auth/login"
       return res.redirect(b);
     }
   });
@@ -422,7 +423,7 @@ res.redirect('/forbidden')      }
 res.redirect('/forbidden')
       }
     } else {
-      let b = dash.generateUrl();
+      let b = "/auth/login"
       res.redirect(b);
     }
   });
@@ -2039,7 +2040,7 @@ res.redirect('/')}
      if(req.session.act){
        res.redirect('/')
      }else{
-   let b = dash.generateUrl();
+   let b = "/auth/login"
       res.redirect(b);
       debug('New request on /login')
      }

@@ -163,3 +163,79 @@
 2022-11-07 08:22:45 || null uncaughtException || Type: Uncaught Exception/Catch 
  < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
  - - - > 
+ 
+2022-11-07 08:22:45 || DiscordHTTPError: DiscordHTTPError: 400 Bad Request on POST /api/v6/oauth2/token [object Promise] || Type: Unhand/led Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-07 08:22:45 || DiscordHTTPError: DiscordHTTPError: 400 Bad Request on POST /api/v6/oauth2/token [object Promise] || Type: Unhand/led Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-07 09:12:34 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-07 09:12:34 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-07 09:12:34 || TypeError: dash.generateUrl is not a function [object Promise] || Type: Unhand/led Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-07 09:13:26 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-07 09:13:26 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-07 09:13:26 || TypeError: dash.generateUrl is not a function [object Promise] || Type: Unhand/led Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-07 09:13:26 || TypeError: dash.generateUrl is not a function [object Promise] || Type: Unhand/led Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-07 09:15:07 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-07 09:15:07 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-07 09:15:07 || TypeError: dash.generateUrl is not a function [object Promise] || Type: Unhand/led Rejection/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-07 09:15:28 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-07 09:15:28 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-07 09:17:33 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-07 09:17:33 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-07 09:18:55 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-07 09:18:55 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-07 09:21:20 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-07 09:21:20 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
+ 
+2022-11-07 09:23:20 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-07 09:28:34 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-07 09:29:08 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 

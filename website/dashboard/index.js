@@ -62,24 +62,10 @@ const numCPUs = cpus().length;
   });
 } else {*/
 
-const sessions = require("express-session");
-  app.use(
-    sessions({
-      secret: "ioyre89irhf893y48yfhwiehk94wyrh3qeda78tg3",
-      saveUninitialized: true,
-      cookie: { maxAge: oneDay },
-      resave: false,
-    })
-  );
 
 
-  const plugins = require("nova.js-plugins");
-  const dash = new plugins.Dash({
-    clientID: "896303947311104041",
-    clientSecret: config.dash_settings.secret,
-    redirectURI: config.website_settings.domain+"/auth/callback",
-    bot: bot,
-  });
+
+
 
   function al(port) {
     if (bot) {
@@ -96,7 +82,7 @@ const sessions = require("express-session");
   });
 
 
-  require("./dash.js")(app, dash, bot, express);
+  require("./dash.js")(app, bot, express);
   /*Nova bot api*/
 
   app.get("/api/serverVar", (req, res) => {
