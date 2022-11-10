@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Home | <%=config.website_settings.title%></title>
+    <title><%=config.website_settings.title%></title>
 
     <meta content="Nova bot" property="og:title" />
     <meta content="A 200 command multi use discord bot" property="og:description" />
@@ -81,10 +81,22 @@
           </a>
 
           <div class="navbar-item">
-      
-  <li class="nav-item">
-                <a class="btn btn-discord nav-link" href="<%=url%>"><i class="fa-solid fa-user"></i> Login</a>
-            </li>   
+    
+            <li class="nav-item dropdown">
+              <a class="nav-link btn btn-discord dropdown-toggle has-text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i> <img src="https://cdn.discordapp.com/avatars/<%=user.id%>/<%=user.avatar%>" class="nav-userProfile-image"/><b><%=user.username%></b><small>#<%=user.discriminator%></small>   
+              </a>              
+            <div class="dropdown-menu dropdown-menu-right animate slideIn" style="max-width:220px!important;">
+                <a class="dropdown-item" href="/console"><i class="fa fa-id-card mr-2"></i> Console</a>
+                <a class="dropdown-item" href="/console/select"><i class="fa-solid fa-list-radio"></i> Selector</a>
+                <% if (user.id=="845312519001342052"){ %>
+                <a class="dropdown-item" href="/console/admin/dashboard"><i class="fa-solid fa-screwdriver-wrench"></i> Admin</a>
+<% } %>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item dropdown-danger" href="/logout"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+            </div>
+          </li>
+            </div>
           </div>
         </div>
       </div>

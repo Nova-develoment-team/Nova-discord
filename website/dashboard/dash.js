@@ -102,7 +102,8 @@ app.get('/requestid',async (req, res) => {
   
    res.render(__dirname +'/pages/default/indexalogin.ejs', {
     user: guser,
-    config: config
+    config: config,
+title: "Home",
    })
     }
  else{
@@ -110,7 +111,8 @@ app.get('/requestid',async (req, res) => {
     var file = content.toString();
     res.render(__dirname +'/pages/default/index.ejs', {
       url: b,
-      config: config
+      config: config,
+title: "Home",
     })
     ;
  }   
@@ -175,7 +177,8 @@ res.redirect("/maintenance")
       req.infoavatar = guser.avatar;
       res.render(__dirname +'/pages/console/dash.ejs', {
         user: guser,
-        config: config
+        config: config,
+title: "Console",
        })
     } else {
       res.redirect(b);
@@ -308,6 +311,7 @@ res.redirect("/maintenance")
        res.render(__dirname +'/pages/console/serverselection.ejs', {
         user: guser,
         config: config,
+title: "Selection",
         ats: bb.replace("undefined",""),
         manage: aa.replace("undefined","")
        })
@@ -461,6 +465,7 @@ res.redirect('/forbidden')
       res.render(__dirname+'/pages/admin/commandedit.ejs', {
         code: code,
         config: config,
+title: "Console",
       user: guser,
         name: name,
         req: req,
