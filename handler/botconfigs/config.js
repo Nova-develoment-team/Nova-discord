@@ -11,7 +11,7 @@ module.exports = {
 
   bot_settings: {
   ownerid: "",
-  path: "/home/runner/Nova-discord/"
+  path: "/workspaces/Nova-discord/"
   },
     events: {
     antiCrash: true,

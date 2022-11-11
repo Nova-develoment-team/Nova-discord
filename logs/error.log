@@ -22573,4 +22573,11 @@
  
 2022-11-06 15:20:47 || [ DEBUG ] :: User connected to website || type: main page || IP: ::ffff:172.18.0.1 || Added to list of known ips< - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
  
-2022-11-10 07:49:53 || [ DEBUG ] :: User connected to website || type: main page || IP: ::ffff:172.18.0.1 || Added to list of known ips< - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+2022-11-11 16:23:07 || [ DEBUG ] :: Webserver successfully started on 1488< - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-11 16:23:07 || [ ERROR ] :: resolve< - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+- - - > 
+ 
+2022-11-11 16:23:07 || [ ERROR ] :: Error: getaddrinfo ENOTFOUND undefined< - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+
+ - - - > 

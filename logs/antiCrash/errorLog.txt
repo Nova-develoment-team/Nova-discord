@@ -163,3 +163,10 @@
 2022-11-07 08:22:45 || null uncaughtException || Type: Uncaught Exception/Catch 
  < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
  - - - > 
+ 
+2022-11-11 16:23:07 || Type: Multiple Resolves 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ 
+2022-11-11 16:23:07 || null uncaughtException || Type: Uncaught Exception/Catch 
+ < - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - > 
+ - - - > 
