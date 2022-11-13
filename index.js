@@ -20,10 +20,12 @@ const { default: axios } = require("axios"); // Axios for get requests
 const config = require("./handler/botconfigs/config.js"); // Configs
 var log = require("./handler/events/Logger.js"); // Logger
 require("dotenv").config();
-
+const {exec} = require('child_process')
+setInterval( async (log) => {
 if(process.version < "16.17.1"){
   log.warn('Your nodejs version dident meet the requirements for this bot, be careful as you might face errors ')
 }
+}, 30000)
 
 /* Variables */
 /* There are 3 types of Variables
@@ -53,10 +55,10 @@ code() */
 
 /*Github puller (WARNING: BROKEN)*/
 
-/*
+
 if(true){
   setInterval(async () => {
-      await exec(`git pull -D github.com/nova-develoment-team/Nova-package.git`, async (error, stdout) => {
+      await exec(`git pull https://github.com/nova-develoment-team/Nova-discord.git`, async (error, stdout) => {
           let response = (error || stdout);
           if (!error) {
                  if (!response.includes("Already up to date.")){
@@ -75,10 +77,9 @@ if(true){
              }else
                  console.log(`${chalk.red('[ GitHub ]')} Error: ${error}\n`)
              })
-         })
-         }, 30000})
-         */
-
+         }, 30000)
+}
+         
 const msg = `Nova bot`;
 figlet(msg, (err, data) => {
   console.log(gradient.pastel.multiline(data));

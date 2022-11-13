@@ -11,7 +11,7 @@ module.exports = {
 
   bot_settings: {
   ownerid: "",
-  path: "/workspaces/Nova-discord/"
+  path: "/home/runner/Nova-bot/"
   },
     events: {
     antiCrash: true,
@@ -46,7 +46,7 @@ module.exports = {
   },
 
   dash_settings: {
-    id: 896303947311104041,
+    id: "896303947311104041",
     secret: process.env.bot_secret,
     redirect: process.env.website_redirect,
   },
