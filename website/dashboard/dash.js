@@ -300,7 +300,7 @@ title: "Console",
                           `;
         }
       }
-      const selection = fs.readFileSync(__dirname + "/pages/serverselection.ejs");
+      const selection = fs.readFileSync(__dirname + "/pages/console/serverselection.ejs");
       const selectfile = selection.toString();
       let guser = await dash.getUser(req.session.act)
 
@@ -442,7 +442,7 @@ res.redirect('/forbidden')
     },
     stats_uri: "http://n2.artiom.host:1488/staties", //Base URL
     redirect_uri: "http://n2.artiom.host:1488/callbacks", //Landing Page
-    owners: ["845312519001342052", "845312519001342052"],
+    owners: [config.bot_settings.ownerid, config.bot_settings.ownerid],
     authorizationkey: "ppenis",
     login_path: "pop",
   });
@@ -461,7 +461,7 @@ res.redirect('/forbidden')
     req.infousername = guser.username; 
     req.infoavatar = guser.avatar;
   
-    if(getuser.id == "845312519001342052"){      
+    if(getuser.id == config.bot_settings.ownerid){      
       res.render(__dirname+'/pages/admin/commandedit.ejs', {
         code: code,
         config: config,
@@ -599,7 +599,7 @@ res.send('not admin')
   let user2 = await bot.users.fetch('826320581518557194')
   let author2 = user2.username + "#" + user2.discriminator
   let getuser = await dash.getUser(req.session.act)
-    if(getuser.id == "845312519001342052"){    res.render(__dirname+`/pages/admin/dashboard.ejs`, {
+    if(getuser.id == config.bot_settings.ownerid){    res.render(__dirname+`/pages/admin/dashboard.ejs`, {
       bot: bot
     })
 }else{
@@ -637,7 +637,7 @@ res.redirect('/')}
   text = "path is invalid or error occurred"
         }
            let getuser = await dash.getUser(req.session.act)
-    if(getuser.id == "845312519001342052"){
+    if(getuser.id == config.bot_settings.ownerid){
     res.render(__dirname+`/pages/admin/command.ejs`,{
       text: text
     })
@@ -659,7 +659,7 @@ res.redirect('/')}
   
   }
   let getuser = await dash.getUser(req.session.act)
-    if(getuser.id == "845312519001342052"){
+    if(getuser.id == config.bot_settings.ownerid){
   res.render(__dirname+`/pages/admin/guild.ejs`, {
     guild: guild
   })
@@ -679,7 +679,7 @@ res.redirect('/')}
         info = "error occurred: " + e
         }
         let getuser = await dash.getUser(req.session.act)
-    if(getuser.id == "845312519001342052"){
+    if(getuser.id == config.bot_settings.ownerid){
       res.render(__dirname+'/pages/admin/ginfo.ejs', {
         info: info,
         bot: bot,
@@ -697,7 +697,7 @@ res.redirect('/')}
   
   app.get('/command/create',  async (req, res) => {
     let getuser = await dash.getUser(req.session.act)
-    if(getuser.id == "845312519001342052"){    res.send(`
+    if(getuser.id == config.bot_settings.ownerid){    res.send(`
   <!DOCTYPE html>
   <html>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -923,7 +923,7 @@ res.redirect('/')}
        }
    catch (e) {
      let getuser = await dash.getUser(req.session.act)
-    if(getuser.id == "845312519001342052"){
+    if(getuser.id == config.bot_settings.ownerid){
    res.send(`
   <!DOCTYPE html>
   <html>
@@ -1024,7 +1024,7 @@ res.redirect('/')}
         }
     catch (e) {
        let getuser = await dash.getUser(req.session.act)
-    if(getuser.id == "845312519001342052"){        res.send(`
+    if(getuser.id == config.bot_settings.ownerid){        res.send(`
   <!DOCTYPE html>
   <html>
   <head>
@@ -1125,7 +1125,7 @@ res.redirect('/')}
   app.get('/console/admin/shell',  async(req, res) => {
     
     let getuser = await dash.getUser(req.session.act)
-    if(getuser.id == "845312519001342052"){
+    if(getuser.id == config.bot_settings.ownerid){
 
   res.send(`
   <!DOCTYPE html>
@@ -1325,7 +1325,7 @@ res.redirect('/')}
   
   app.get('/console/admin/djseval',  async(req, res) => {
     let getuser = await dash.getUser(req.session.act)
-    if(getuser.id == "845312519001342052"){
+    if(getuser.id == config.bot_settings.ownerid){
   res.send(`
   <!DOCTYPE html>
   <html>
@@ -1560,7 +1560,7 @@ res.redirect('/')}
   
   app.get('/console/admin/aoieval',  async(req, res) => {
     let getuser = await dash.getUser(req.session.act)
-    if(getuser.id == "845312519001342052"){
+    if(getuser.id == config.bot_settings.ownerid){
   res.send(`
   <!DOCTYPE html>
   <html>
@@ -1805,7 +1805,7 @@ res.redirect('/')}
   
   app.get('/reboot',  async(req,res) => {
     let getuser = await dash.getUser(req.session.act)
-    if(getuser.id == "845312519001342052"){
+    if(getuser.id == config.bot_settings.ownerid){
   await res.send(`
   <!DOCTYPE html>
   <html>
@@ -1935,7 +1935,7 @@ res.redirect('/')}
   
   app.get('/console/admin/stats',async(req,res) => {
     let getuser = await dash.getUser(req.session.act)
-    if(getuser.id == "845312519001342052"){
+    if(getuser.id == config.bot_settings.ownerid){
   res.send(`
   <!DOCTYPE html>
   <html>

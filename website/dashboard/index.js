@@ -75,7 +75,7 @@ const sessions = require("express-session");
 
   const plugins = require("nova.js-plugins");
   const dash = new plugins.Dash({
-    clientID: "896303947311104041",
+    clientID: config.dash_settings.id,
     clientSecret: config.dash_settings.secret,
     redirectURI: config.website_settings.domain+"/auth/callback",
     bot: bot,

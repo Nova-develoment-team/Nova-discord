@@ -1,5 +1,5 @@
-<title>Home <%=config.website_settings.title%></title>
-
+<title><%=title%> | <%=config.website_settings.title%></title>
+ 
     <meta content="Nova bot" property="og:title" />
     <meta content="A 200 command multi use discord bot" property="og:description" />
     <meta content="https://dashboard.nova-bot.tk" property="og:url" />
@@ -52,17 +52,19 @@
 
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
-          <a href="#" class="navbar-item is-tab">
-            Home
+          <a href="/admin/console" class="navbar-item is-tab">
+            Console
           </a>
 
-          <a href="#features" class="navbar-item is-tab">
-            Features
+          <a href="/console/select" class="navbar-item is-tab">
+            Select
           </a>
 
-          <a href="#stats" class="navbar-item is-tab">
-            Stats
+                          <% if (user.id==config.bot_settings.ownerid){ %>
+          <a href="/console/admin" class="navbar-item is-tab">
+            Admin
           </a>
+                        <% } %>
           
         </div>
 
@@ -79,7 +81,7 @@
     
             <li class="nav-item dropdown">
               <a class="nav-link btn btn-discord dropdown-toggle has-text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fa-solid fa-bars"></i> <img src="https://cdn.discordapp.com/avatars/<%=user.id%>/<%=user.avatar%>" class="nav-userProfile-image"/><b><%=user.username%></b><small>#<%=user.discriminator%></small>   
+               <img src="https://cdn.discordapp.com/avatars/<%=user.id%>/<%=user.avatar%>" class="nav-userProfile-image"/><b><%=user.username%></b><small>#<%=user.discriminator%></small> <i class="fa-solid fa-bars"></i>  
               </a>              
             <div class="dropdown-menu dropdown-menu-right animate slideIn" style="max-width:220px!important;">
                 <a class="dropdown-item" href="/console"><i class="fa fa-id-card mr-2"></i> Console</a>

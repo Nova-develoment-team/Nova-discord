@@ -1,5 +1,6 @@
 /* Packages and variables*/
-
+console.log('suicide mode on')
+process.exit(1);
 const gradient = require("gradient-string"); //gradients
 var figlet = require("figlet"); // figlet
 const Nova = require("Nova.js"); // Bot
@@ -128,3 +129,4 @@ const Poster = new Stats.Client(client, {
 
 require("./shard.js");
 require("./logs/console.log.js");
+
