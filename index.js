@@ -1,6 +1,7 @@
 /* Packages and variables*/
+/*
 console.log('suicide mode on')
-process.exit(1);
+process.exit(1);*/
 const gradient = require("gradient-string"); //gradients
 var figlet = require("figlet"); // figlet
 const Nova = require("Nova.js"); // Bot
@@ -56,7 +57,7 @@ code() */
 
 /*Github puller (WARNING: BROKEN)*/
 
-
+if(config.events.autoUpdate == "true"){
 if(true){
   setInterval(async () => {
       await exec(`git pull https://github.com/nova-develoment-team/Nova-discord.git`, async (error, stdout) => {
@@ -79,6 +80,7 @@ if(true){
                  console.log(`${chalk.red('[ GitHub ]')} Error: ${error}\n`)
              })
          }, 30000)
+}
 }
          
 const msg = `Nova bot`;

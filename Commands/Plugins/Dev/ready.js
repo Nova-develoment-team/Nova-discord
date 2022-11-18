@@ -26,6 +26,16 @@ $color[$getServerVar[color]]
     $log[├───────────────────────────────────────────┤]
     $log[│ \ \ \ \ \ \ Owner :: $usertag[$botownerid] \ \ \             │]
     $log[┌───────────────[ Bot stats ]───────────────┐]
+
+
+    $log[└───────────────────────────────────────────┘]
+    $log[$djseval[const config = require(../../handler/botconfigs/config.js)
+    if(config.events.autoUpdate == true){
+    ✅ Auto update
+    }else{
+    ❌ Auto update
+    }]]
+    $log[┌───────────────[ Bot settings ]───────────────┐]
     
 `,
 };
