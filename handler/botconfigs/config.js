@@ -10,7 +10,7 @@ module.exports = {
   },
 
   bot_settings: {
-  ownerid: "",
+  ownerid: "845312519001342052",
   path: "/home/runner/Nova-bot/"
   },
     events: {
@@ -46,7 +46,7 @@ module.exports = {
   },
 
   dash_settings: {
-    id: "896303947311104041",
+    id: "1046016653269418075",
     secret: process.env.bot_secret,
     redirect: process.env.website_redirect,
   },

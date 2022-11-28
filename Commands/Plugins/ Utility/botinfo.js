@@ -1,7 +1,7 @@
 module.exports = ({
 type: "loopCommand",
 executeOnStartup: "true",
-every: "1000",
+every: "10000",
 code: `
 $editMessage[1042675343938568192;{title:Client Stats}{field:🤖 CLIENT STATS: **\`\`•\`\` Client** :: :green_circle: Online
 **\`\`•\`\` Ping** :: $pingms

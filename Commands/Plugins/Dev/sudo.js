@@ -9,17 +9,11 @@ usage: sudo [-ABbEHknPS] [-r role] [-t type] [-C num] [-D directory] [-g group] 
 usage: sudo -e [-ABknS] [-r role] [-t type] [-C num] [-D directory] [-g group] [-h host] [-p prompt] [-R
             directory] [-T timeout] [-u user] file ...
             $elseif[$message[1]==su]
-            $awaitMessages[$authorID;5s;auth;Duckey;Command Timed out] 
-[sudo] Say Duckey
-$endElseIf
-$endif`
-}, {
-type: "awaitedCommand",
-name: "auth",
-code: `
-$setUserVar[auth;true]
-\`\`\`root@Nova-bot~:#`\`\`\
-$clear[3]
-$onlyif[$message==Duckeyiscool]
-[sudo] password for Duckey:`
+$awaitMessages[$authorID;5s;$getVar[sudopass];auth;su: Authentication failure]
+Ducky@Nova-bot~:# sudo su
+Password:
+$onlyif[$getUserVar[sudoaccess]==false;You are already root]
+$endelseif
+$endif
+`
 }]

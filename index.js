@@ -1,7 +1,4 @@
 /* Packages and variables*/
-/*
-console.log('suicide mode on')
-process.exit(1);*/
 const gradient = require("gradient-string"); //gradients
 var figlet = require("figlet"); // figlet
 const Nova = require("Nova.js"); // Bot
@@ -53,12 +50,100 @@ then do
 
 code() */
 
-/* Packages and variables*/
+/*
+The Github Auto Updater :: GAU 
+Made by the 2022 - 2024 © Nova team
+*/
 
-/*Github puller (WARNING: BROKEN)*/
+const readline = require('readline');
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
 
-if(config.events.autoUpdate == "true"){
-if(true){
+
+
+require('events').EventEmitter.defaultMaxListeners = 20;
+  
+
+/* Start up */
+const msg = `Nova bot`;
+figlet(msg, (err, data) => {
+  console.log(gradient.pastel.multiline(data));
+});
+console.log("Dream a bot");
+
+// Init bot
+const bot = new Nova.Bot(config.Bot);
+
+/* [ Nova website ] */
+require("./website/dashboard/index.js")(
+  bot,
+  1488,
+);
+
+// Anti crash
+if (config.events.antiCrash) {
+  require("./handler/events/antiCrash.js")()
+};
+/*if config.website_settings.Maintnance require('./handler/botconfigs/maintanceStatus')*/
+
+/* [ Nova loader ] */
+/* Variable handler */
+bot.variables(
+  require("./handler/botconfigs/Variables.js")
+); 
+/* Status handler */
+require("./handler/botconfigs/status")(bot);
+/* Callback handler */
+require("./handler/botconfigs/callbacks")(bot);
+/* Command handler */
+bot.loadCommands(`./Commands/Plugins/`);
+/* Lavalink Music handler */
+require("./handler/lavalink/connecter")(bot);
+
+const Stats = require("discord-live-stats");
+const client = new Discord.Client();
+
+const Poster = new Stats.Client(client, {
+  stats_uri: "http://n2.artiom.host:1488/staties",
+  authorizationkey: "ppenis",
+});
+
+require("./shard.js");
+require("./logs/console.log.js");
+
+
+//
+rl.question('Would you like to check for updates from the github repo? (May cause errors) Yes or No', function (response) {
+    if(response == "Yes"){
+      if(true){
+  setInterval(async () => {
+      await exec(`git pull https://github.com/nova-develoment-team/Nova-discord.git`, async (error, stdout) => {
+          let response = (error || stdout);
+          if (!error) {
+                 if (!response.includes("Already up to date.")){
+                     console.log(`${chalk.red('[ GitHub ]')} Update found on github. downloading now!`);
+                     await Bot.channels.cache.get(966700897491120249).send({content: "**RESTARTING . . .**", embeds:[
+                         new Discord.MessageEmbed()
+                         .setTitle(`**[PULL FROM GITHUB]** New update on GitHub. Pulling.`)
+                         .setColor(`BLUE`)
+                         .setDescription(`Logs:\n\`\`\`\n${response}\`\`\``)
+                     ]})
+                    console.log(`${chalk.red('[ GitHub ]')} the new version had been installed. Restarting now . . .`)
+                     process.exit()
+                 }else {
+                     if(!idkwhatisthis) {console.log(`${chalk.green('[ GitHub ]')} Bot is up to date\n`); idkwhatisthis = true}
+                 }
+             }else
+                 console.log(`${chalk.red('[ GitHub ]')} Error: ${error}\n`)
+             })
+         }, 30000)
+      }
+    }
+
+          if(response == "yes"){
+      if(true){
   setInterval(async () => {
       await exec(`git pull https://github.com/nova-develoment-team/Nova-discord.git`, async (error, stdout) => {
           let response = (error || stdout);
@@ -80,55 +165,23 @@ if(true){
                  console.log(`${chalk.red('[ GitHub ]')} Error: ${error}\n`)
              })
          }, 30000)
-}
-}
-         
-const msg = `Nova bot`;
-figlet(msg, (err, data) => {
-  console.log(gradient.pastel.multiline(data));
-});
-console.log("Dream a bot");
+      }
+          }
 
-const bot = new Nova.Bot(config.Bot);
+                if(response == "No"){
+console.log('Skipping...')
+console.log('Launching...')
+console.log('Bot init')
+console.log('Booted')
+      }
 
-/* [ Nova web panel ] */
-require("./website/dashboard/index.js")(
-  bot,
-  1488,
-  "./Commands/Plugins/",
-  `NovaDuck`,
-  `7122011`
-);
+   if(response == "no"){
+console.log('Skipping...')
+console.log('Launching...')
+console.log('Bot init')
+console.log('Booted')
+      }
+    rl.close();
+  })
 
-/* Example
-require('./website/dashboard/index.js')(bot,Port here,'./Commands/Plugins/', `Admin username here`, `Admin password here`)
-
-to go to the admin panel, go to 127.0.0.1:Your port here
-*/
-
-/* [ Nova admin panel ] */
-
-if (config.events.antiCrash) require("./handler/events/antiCrash.js")();
-/*if config.website_settings.Maintnance require('./handler/botconfigs/maintanceStatus')*/
-
-/* [ Nova loader ] */
-bot.variables(
-  require("./handler/botconfigs/Variables.js")
-); /* Variable handler */
-require("./handler/botconfigs/status")(bot);
-require("./handler/botconfigs/callbacks")(bot);
-bot.loadCommands(`./Commands/Plugins/`);
-require("./handler/lavalink/connecter")(bot);
-/* [ Nova loader ] */
-
-const Stats = require("discord-live-stats");
-const client = new Discord.Client();
-
-const Poster = new Stats.Client(client, {
-  stats_uri: "http://n2.artiom.host:1488/staties",
-  authorizationkey: "ppenis",
-});
-
-require("./shard.js");
-require("./logs/console.log.js");
 

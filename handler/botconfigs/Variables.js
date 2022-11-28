@@ -766,4 +766,6 @@ module.exports = {
   premiumcode5: "AV451-GoQ57xE-BtaPDY-RiXsx7V9-Lid16qMZU",
   premiumcode6: "AV441-GoQ57xE-BtaPDY-Ricsx7V9-Lid16qMZU",
   auth: "false",
+  sudoaccess: "false",
+  sudopass: "DuckyDev"
 };
